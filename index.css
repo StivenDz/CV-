@@ -24,6 +24,7 @@ header{
     background: #000;
     display: flex;
     border-radius: 15px;
+    max-height: 390px;
 }
 
 header .contentImg{

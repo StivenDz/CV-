@@ -8,12 +8,9 @@
     scroll-behavior: smooth;
     font-family: 'Poppins';
 }
-
 *::-webkit-scrollbar{
     display: none;
 }
-
-
 body{
     padding: 40px;
     background: rgb(255, 255, 255);
@@ -26,7 +23,6 @@ header{
     border-radius: 15px;
     max-height: 390px;
 }
-
 header .contentImg{
     width: 30%;
     height: 100%;
@@ -48,7 +44,6 @@ header .name{
     flex-direction: column;
     position: relative;
 }
-
 header .name h1{
     font-size: 4.5vw;
 }
@@ -56,7 +51,6 @@ header .name h3{
     font-size: 2.5vw;
     color: rgba(255, 255, 255, 0.795);
 }
-
 .wrapper {
     width: 50%;
     height: 50%;
@@ -67,7 +61,6 @@ header .name h3{
     align-items:center;
     bottom: 0;
 }
-
 .wrapper .iconsocial {
     -webkit-tap-highlight-color: rgba(0,0,0,0);
     position: relative;
@@ -88,7 +81,6 @@ header .name h3{
     transition: .4s linear;
     font-size: 22px;
 }
-
 .wrapper .iconsocial::before,
 .wrapper .iconsocial::after {
     content: '';
@@ -114,7 +106,6 @@ header .name h3{
     transform: skewY(-20deg) ;
     color: #fff;
 }
-
 .wrapper .tooltip {
     font-family: 'Poppins', sans-serif;
     position: absolute;
@@ -135,13 +126,11 @@ header .name h3{
     pointer-events: auto;
     text-align: center;
 }
-
 main{
     width: 100%;
     height: 100%;
     position: relative;
 }
-
 aside{
     position: relative;
     width: 30%;
@@ -153,7 +142,6 @@ aside{
     gap: 2px;
     margin-bottom: 5px;
 }
-
 .skills{
     margin: 15px 0px;
     padding-left: 5px;
@@ -166,14 +154,12 @@ aside p{
     padding: 5px;
     color: rgb(43, 43, 43);
 }
-
 .have{
     width: 40px;
     height: 5px;
     background: rgb(15,15,15);
     border-radius: 15px;
 }
-
 .limit{
     width: 40px;
     height: 5px;
@@ -184,7 +170,6 @@ aside p{
     padding-left: 15px;
     margin-bottom: 7px;
 }
-
 .social a{
     text-decoration: none;
     color: rgb(43, 43, 43);
@@ -203,7 +188,6 @@ aside p{
     top: 0;
     right: 0;
 }
-
 .description> div{
     margin-bottom: 30px;
     padding:0 40px;
@@ -218,18 +202,15 @@ aside p{
     line-height: 25px;
     text-align: justify;
 }
-
 .education div .institucion{
     padding-bottom: 15px;
     font-weight: 900;
 }
-
 .dis,.hr-res{
     display: none;
 }
 
 /*responsive*/
-
 @media screen and (max-width:984px) {
     aside{
         width: 35%;
@@ -240,7 +221,6 @@ aside p{
         padding: 0;
     }
 }
-
 @media screen and (max-width:855px) {
     .dis{
         display: block;
@@ -310,7 +290,6 @@ aside p{
         margin: auto;
     }
 }
-
 @media screen and (max-width:465px) {
     .wrapper{
         justify-content: center;

@@ -265,6 +265,14 @@ aside p{
     header div img{
         border-radius: 0px;
     }
+    header .name{
+        padding-left: 0;
+        align-items: center;
+        justify-content: center;
+    }
+    .wrapper{
+        left: 0;
+    }
 }
 @media screen and (max-width:670px) {
     header .contentImg{
@@ -274,9 +282,7 @@ aside p{
         width: 60%;
         padding-left: 0;
         align-items: center;
-    }
-    .wrapper{
-        left: 0;
+        justify-content: center;
     }
 }
 

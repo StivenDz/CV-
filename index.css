@@ -224,7 +224,7 @@ aside p{
     font-weight: 900;
 }
 
-.dis{
+.dis,.hr-res{
     display: none;
 }
 
@@ -285,6 +285,50 @@ aside p{
         justify-content: center;
     }
 }
+@media screen and (max-width:595px) {
+    body{
+        padding: 0;
+    }
+    main{
+        display: flex;
+        flex-direction: column;
+    }
+    aside{
+        order: 2;
+        width: 100%;
+    }
+
+    .description{
+        position: relative;
+        width: 100%;
+    }
+
+    .hr-res{
+        display: block;
+        width: 90%;
+        text-align: center;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width:465px) {
+    .wrapper{
+        justify-content: center;
+        width: 100%;
+    }
+    .wrapper .iconsocial{
+        padding: 0;
+        margin: 0;
+    }
+}
+@media screen and (max-width:320px) {
+    .wrapper .iconsocial{
+        width: 35px;
+        height: 30px;
+    }
+}
+
+
 
 
 

@@ -1,1 +1,1 @@
-# <a href="https://stivendz.github.io/CV/">See CV</a>
+# <a href="https://stivendz.github.io/CV/">CV</a>

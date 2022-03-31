@@ -43,6 +43,9 @@ header .name{
     flex-grow: 2;
     color: #fff;
     padding-left: 40px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
 }
 
 header .name h1{
@@ -54,14 +57,14 @@ header .name h3{
 }
 
 .wrapper {
-    width: 100%;
-    height: 100%;
-    position: relative;
+    width: 50%;
+    height: 50%;
+    position: absolute;
     display: flex;
     flex-direction: row;
     justify-content: left;
     align-items:center;
-    flex-grow: 3;
+    bottom: 0;
 }
 
 .wrapper .iconsocial {
@@ -218,6 +221,62 @@ aside p{
 .education div .institucion{
     padding-bottom: 15px;
     font-weight: 900;
+}
+
+.dis{
+    display: none;
+}
+
+/*responsive*/
+
+@media screen and (max-width:984px) {
+    aside{
+        width: 35%;
+
+    }
+    .description{
+        width: 65%;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width:855px) {
+    .dis{
+        display: block;
+    }
+    .social b{
+        padding-left: 0;
+    }
+}
+@media screen and (max-width:799px) {
+    .description> div{
+        padding: 0 10px;
+    }
+}
+@media screen and (max-width:740px) {
+    body{
+        padding: 40px 0;
+    }
+    header{
+        border-radius: 0px;
+    }
+
+    header div img{
+        border-radius: 0px;
+    }
+}
+@media screen and (max-width:670px) {
+    header .contentImg{
+        width: 40%;
+    }
+    header .name{
+        width: 60%;
+        padding-left: 0;
+        align-items: center;
+    }
+    .wrapper{
+        left: 0;
+    }
 }
 
 

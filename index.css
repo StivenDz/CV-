@@ -202,12 +202,16 @@ aside p{
     line-height: 25px;
     text-align: justify;
 }
-.education div .institucion{
+.education div .institucion, .history div .institucion{
     padding-bottom: 15px;
     font-weight: 900;
 }
 .dis,.hr-res{
     display: none;
+}
+
+.decol{
+    color: rgb(53, 53, 53);
 }
 
 /*responsive*/

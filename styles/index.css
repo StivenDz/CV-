@@ -12,27 +12,108 @@
     display: none;
 }
 body{
-    padding: 40px;
     background: rgb(255, 255, 255);
+    height: 100%;
+    position: relative;
 }
+
+.backminipro{
+    position: absolute;
+    z-index: 199;
+    width: 100%;
+    height: 100%;
+    background: #000;
+}
+
+.backpro{
+    position: absolute;
+    z-index: 300;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, #000, transparent);
+}
+
+.backpro2{
+    position: absolute;
+    z-index: 500;
+    width: 100%;
+    height: 100%;
+    -webkit-backdrop-filter: blur(4px);
+    backdrop-filter: blur(4px);
+}
+
+.img-back{
+    position:fixed;
+    z-index: 200;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+
 header{
     width: 100%;
-    height: 55vh;
-    background: #000;
     display: flex;
-    border-radius: 15px;
-    max-height: 390px;
+    position: relative;
+    animation: expand 2s 1 both  cubic-bezier(0.79,0.14,0.15,0.86);
+    background-attachment: fixed;
+    overflow: hidden;
+}
+
+@keyframes expand {
+    0%{
+        height: 55vh;
+    }100%{
+        height: 100vh;
+    }
 }
 header .contentImg{
     width: 30%;
     height: 100%;
     flex-grow: 1;
+    border-radius: 50%;
 }
+
+.img-an{
+    animation: imgshadow 2s infinite alternate forwards;
+}
+
+@keyframes imgshadow{
+    0%{
+        filter: drop-shadow(0 0 0px rgba(255, 255, 255, 0));
+    }100%{
+        filter: drop-shadow(0 0 17px rgb(255, 255, 255));
+    }
+}
+
+.appear{
+    overflow: hidden;
+    width: 100%;
+    white-space: nowrap;
+    animation: letterAppear 1s 1 steps(30)
+}
+
+@keyframes letterAppear {
+    0% {
+        width:0;
+        white-space: nowrap;
+    }
+}
+
 header div img{
     object-fit: cover;
-    width: 100%;
-    height: 100%;
-    border-radius: 15px 0 0 15px;
+    width: calc(853px / 3 );
+    height: calc(1280px / 4.5 );
+    border-radius: 50%;
+    position: relative;
+    z-index: 1200;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    filter: drop-shadow(0 0 7px rgb(0, 0, 0));
+    transition: all 1s;
+}
+header div img:hover{
+    filter: drop-shadow(0 0 20px #000);
 }
 header .name{
     width: 70%;
@@ -43,6 +124,8 @@ header .name{
     display: flex;
     flex-direction: column;
     position: relative;
+    z-index: 700;
+    justify-content: center;
 }
 header .name h1{
     font-size: 4.5vw;
@@ -59,7 +142,8 @@ header .name h3{
     flex-direction: row;
     justify-content: left;
     align-items:center;
-    bottom: 0;
+    bottom: -35px;
+    z-index: 700;
 }
 .wrapper .iconsocial {
     -webkit-tap-highlight-color: rgba(0,0,0,0);
@@ -67,8 +151,8 @@ header .name h3{
     border-radius: 50%;
     padding: 15px;
     margin: 10px;
-    width: 50px;
-    height: 50px;
+    width: 4vw;
+    height: 4vw;
     font-size: 18px;
     display: flex;
     justify-content: center;
@@ -126,25 +210,77 @@ header .name h3{
     pointer-events: auto;
     text-align: center;
 }
+
+.buttons{
+    position: absolute;
+    width: 100%;
+    display: flex;
+    z-index: 1200;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 50px;
+    padding: 20px;
+    left: 55px;
+    padding-left: 0;
+    bottom: 75px;
+}
+.buttons a{
+    text-decoration: none;
+}
+.buttons a:nth-child(1){
+    background: rgb(2, 235, 126);
+    color: white;
+    padding: 7px 15px;
+    border-radius: 15px;
+}
+.buttons a:nth-child(1):hover{
+    background: rgba(0, 0, 255, 0);
+    outline: 2px solid rgb(2, 235, 126);
+    color: rgb(2, 235, 126);
+}
+.buttons a:nth-child(2){
+    outline: 2px solid rgb(2, 235, 126);
+    color: rgb(2, 235, 126);
+    padding: 7px 15px;
+    border-radius: 15px;
+}
+.buttons a:nth-child(2):hover{
+    background: rgb(2, 235, 126);
+    color: white;
+}
 main{
     width: 100%;
     height: 100%;
     position: relative;
+    z-index: 600;
+    background: rgb(255, 255, 255);
+    display: flex;
+    padding-bottom: 40px;
 }
 aside{
-    position: relative;
+    position:sticky;
+    top: 0;
     width: 30%;
+    height: 100%;
     padding: 5px;
     border-radius: 15px;
 }
+
 .level{
     display: flex;
     gap: 2px;
     margin-bottom: 5px;
 }
 .skills{
-    margin: 15px 0px;
+    margin: 15px 0px 40px;
     padding-left: 5px;
+}
+
+.languagues{
+    margin-bottom: 45px;
+}
+.hobbies{
+    margin-bottom: 40px;
 }
 aside h4{
     padding: 5px;
@@ -166,13 +302,19 @@ aside p{
     background: rgb(122, 122, 122);
     border-radius: 15px;
 }
+
+.none{
+    display: none;
+}
 .social b{
     padding-left: 15px;
-    margin-bottom: 7px;
+    margin-bottom: 10px;
+    display: inline-block;
 }
 .social a{
     text-decoration: none;
     color: rgb(43, 43, 43);
+    padding-left: 3px;
 }
 .social a:hover{
     text-decoration: none;
@@ -180,7 +322,7 @@ aside p{
     font-weight: 900;
 }
 .description{
-    position: absolute;
+    position: relative;
     width: 70%;
     height: 100%;
     padding: 25px;
@@ -200,7 +342,25 @@ aside p{
     padding: 20px 0;
     color: rgb(43, 43, 43);
     line-height: 25px;
-    text-align: justify;
+}
+
+.list-desc{
+    list-style-image:url(../images/icons/icon-plus.png); 
+}
+.list-desc li{
+    padding: 4px 0px;
+}
+.list-desc li ul{
+    list-style-image: url(../images/icons/icon-menos.png);
+}
+.sep{
+    margin-bottom: 15px;
+}
+.block360px,.block408px{
+    display: none;
+}
+.Knowledge{
+    padding-left: 17px;
 }
 .education div .institucion, .history div .institucion{
     padding-bottom: 15px;
@@ -214,99 +374,17 @@ aside p{
     color: rgb(53, 53, 53);
 }
 
-/*responsive*/
-@media screen and (max-width:984px) {
-    aside{
-        width: 35%;
+.spacing-bottom{
+    display: block;
+    margin-bottom: 30px;
+}
 
-    }
-    .description{
-        width: 65%;
-        padding: 0;
-    }
+.p-justify{
+    text-align:justify ;
+    padding: 0 7px !important;
+    margin-bottom: 20px;
 }
-@media screen and (max-width:855px) {
-    .dis{
-        display: block;
-    }
-    .social b{
-        padding-left: 0;
-    }
-}
-@media screen and (max-width:799px) {
-    .description> div{
-        padding: 0 10px;
-    }
-}
-@media screen and (max-width:740px) {
-    body{
-        padding: 40px 0;
-    }
-    header{
-        border-radius: 0px;
-    }
 
-    header div img{
-        border-radius: 0px;
-    }
-    header .name{
-        padding-left: 0;
-        align-items: center;
-        justify-content: center;
-    }
-    .wrapper{
-        left: 0;
-    }
-}
-@media screen and (max-width:670px) {
-    header .contentImg{
-        width: 40%;
-    }
-    header .name{
-        width: 60%;
-        padding-left: 0;
-        align-items: center;
-        justify-content: center;
-    }
-}
-@media screen and (max-width:595px) {
-    body{
-        padding: 0;
-    }
-    main{
-        display: flex;
-        flex-direction: column;
-    }
-    aside{
-        order: 2;
-        width: 100%;
-    }
-
-    .description{
-        position: relative;
-        width: 100%;
-    }
-
-    .hr-res{
-        display: block;
-        width: 90%;
-        text-align: center;
-        margin: auto;
-    }
-}
-@media screen and (max-width:465px) {
-    .wrapper{
-        justify-content: center;
-        width: 100%;
-    }
-    .wrapper .iconsocial{
-        padding: 0;
-        margin: 0;
-    }
-}
-@media screen and (max-width:320px) {
-    .wrapper .iconsocial{
-        width: 35px;
-        height: 30px;
-    }
+.italic-text{
+    display: block;
 }

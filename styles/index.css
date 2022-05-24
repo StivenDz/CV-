@@ -81,7 +81,7 @@ header .contentImg{
     0%{
         filter: drop-shadow(0 0 0px rgba(255, 255, 255, 0));
     }100%{
-        filter: drop-shadow(0 0 17px rgb(255, 255, 255));
+        filter: drop-shadow(0 0 17px rgb(45, 46, 102));
     }
 }
 

@@ -89,7 +89,8 @@ header {
     outline: none;
     border: none;
     max-width: 93px;
-    cursor: pointer; }
+    cursor: pointer;
+    margin-top: 7px; }
   header > div.contentImg {
     width: 30%;
     height: 100%;

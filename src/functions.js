@@ -1,15 +1,14 @@
 const {"0":expiricenceJSON,"1":skillsJSON,"2":languaguesJSON,"3":mainJSON,"4":hobbiesJSON,"5":contactJSON} = await Promise.all([
-    await (await fetch("../src/JSON/expirience.json")).json(),
-    await (await fetch("../src/JSON/skills.json")).json(),
-    await (await fetch("../src/JSON/languagues.json")).json(),
-    await (await fetch("../src/JSON/main.json")).json(),
-    await (await fetch("../src/JSON/hobbies.json")).json(),
-    await (await fetch("../src/JSON/contact.json")).json()
+    await (await fetch("src/JSON/expirience.json")).json(),
+    await (await fetch("src/JSON/skills.json")).json(),
+    await (await fetch("src/JSON/languagues.json")).json(),
+    await (await fetch("src/JSON/main.json")).json(),
+    await (await fetch("src/JSON/hobbies.json")).json(),
+    await (await fetch("src/JSON/contact.json")).json()
 ]);
-import { Component } from "./models/component.js";
+import { Component } from "../src/models/Component.js";
 
 const asideElement = document.getElementById("aside");
-// const headerElement = document.getElementById("header");
 const descriptionSectionElement = document.getElementById("description");
 const nameDivContainerElement = document.getElementById("name");
 const professionalTitleElement = document.getElementById("professionalTitle");

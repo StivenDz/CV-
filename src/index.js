@@ -11,12 +11,15 @@ if (!params?.lang || params.lang != "en" && params.lang != "es") {
     params.lang = "en";
 }
 if (!params?.sls || params.sls != "false" && params.lang != "true") {
-    params.sls = true;
+    params.sls = "true";
+}
+if (!params?.abb || params.abb != "false" && params.abb != "true") {
+    params.abb = "false";
 }
 let languague = params.lang;
 
 const main = () => {
-    if(params.sls == true){
+    if(JSON.parse(params.sls.toLowerCase()) === true){
         renderLanguagueSelectComponent();
         const selectLanguague = document.getElementById("languague");
         selectLanguague.value = languague;
@@ -26,7 +29,10 @@ const main = () => {
             languague = value;
             reRenderComponents(languague);
         })
-    } 
+    }
+    if(JSON.parse(params.abb.toLowerCase()) === true){
+        document.getElementById("backpro").style.backgroundColor = "#000000";
+    }
     renderComponents(languague);
 }
 

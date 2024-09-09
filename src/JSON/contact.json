@@ -1,0 +1,87 @@
+{
+  "en": [
+    {
+      "type": "Email",
+      "href": "mailto:stivendiazh@gmail.com",
+      "value": "stivendiazh@gmail.com",
+      "icon": "./src/assets/icons/gmail.png",
+      "fontawesomeIcon": "fa-solid fa-envelope",
+      "description": "Email Stiven Díaz"
+    },
+    {
+      "type": "LinkedIn",
+      "href": "https://www.linkedin.com/in/stiven-diaz-3892aa224",
+      "value": "Stiven Diaz",
+      "icon": "./src/assets/icons/linkedin.png",
+      "fontawesomeIcon": "fab fa-linkedin",
+      "description": "Connect on LinkedIn"
+    },
+    {
+      "type": "Instagram",
+      "href": "https://instagram.com/stiven_dz",
+      "value": "@stiven_dz",
+      "icon": "./src/assets/icons/instagram.png",
+      "fontawesomeIcon": "fab fa-instagram",
+      "description": "View Instagram Profile"
+    },
+    {
+      "type": "GitHub",
+      "href": "https://github.com/StivenDz",
+      "value": "StivenDz",
+      "icon": "./src/assets/icons/github.png",
+      "fontawesomeIcon": "fab fa-github",
+      "description": "View GitHub Profile"
+    },
+    {
+      "type": "WhatsApp",
+      "href": "https://wa.me/573003779033?text=Hola!%20Stiven%20Diaz,%20Como%20estás?",
+      "value": "+57 3003779033",
+      "icon": "./src/assets/icons/whatsapp.png",
+      "fontawesomeIcon": "fab fa-whatsapp",
+      "description": "Send a message on WhatsApp"
+    }
+  ],
+  "es": [
+    {
+      "type": "Email",
+      "href": "mailto:stivendiazh@gmail.com",
+      "value": "stivendiazh@gmail.com",
+      "icon": "./src/assets/icons/gmail.png",
+      "fontawesomeIcon": "fa-solid fa-envelope",
+      "description": "Enviar correo a Stiven Díaz"
+    },
+    {
+      "type": "LinkedIn",
+      "href": "https://www.linkedin.com/in/stiven-diaz-3892aa224",
+      "value": "Stiven Diaz",
+      "icon": "./src/assets/icons/linkedin.png",
+      "fontawesomeIcon": "fab fa-linkedin",
+      "description": "Conectar en LinkedIn"
+    },
+    {
+      "type": "Instagram",
+      "href": "https://instagram.com/stiven_dz",
+      "value": "@stiven_dz",
+      "icon": "./src/assets/icons/instagram.png",
+      "fontawesomeIcon": "fab fa-instagram",
+      "description": "Ver perfil de Instagram"
+    },
+    {
+      "type": "GitHub",
+      "href": "https://github.com/StivenDz",
+      "value": "StivenDz",
+      "icon": "./src/assets/icons/github.png",
+      "fontawesomeIcon": "fab fa-github",
+
+      "description": "Ver perfil de GitHub"
+    },
+    {
+      "type": "WhatsApp",
+      "href": "https://wa.me/573003779033?text=Hola!%20Stiven%20Diaz,%20Como%20estás?",
+      "value": "+57 3003779033",
+      "icon": "./src/assets/icons/whatsapp.png",
+      "fontawesomeIcon": "fab fa-whatsapp",
+      "description": "Enviar mensaje por WhatsApp"
+    }
+  ]
+}

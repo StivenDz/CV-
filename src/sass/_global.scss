@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;500;600;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    scroll-behavior: smooth;
+    font-family: 'Poppins';
+}
+*::-webkit-scrollbar{
+    display: none;
+}
+body{
+    background: rgb(255, 255, 255);
+    height: 100%;
+    position: relative;
+}
+
+.backminipro{
+    position: absolute;
+    z-index: 199;
+    width: 100%;
+    height: 100%;
+    background: #000;
+}
+
+.backpro{
+    position: absolute;
+    z-index: 300;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, #000, transparent);
+    -webkit-backdrop-filter: blur(4px);
+    backdrop-filter: blur(4px);
+}
+
+.backpro2{
+    position: absolute;
+    z-index: 500;
+    width: 100%;
+    height: 100%;
+}
+
+.img-back{
+    position:fixed;
+    z-index: 200;
+    width: 100%;
+    height: 100vh;
+    height: 100svh;
+    object-fit: cover;
+}
+.none {
+    display: none;
+}
+
+@keyframes expand {
+    0%{
+        height: 55vh;
+        height: 55svh;
+    }100%{
+        height: 100vh;
+        height: 100svh;
+    }
+}
+@keyframes imgshadow{
+    0%{
+        filter: drop-shadow(0 0 0px rgba(255, 255, 255, 0));
+    }100%{
+        filter: drop-shadow(0 0 17px rgb(45, 46, 102));
+    }
+}
+@keyframes letterAppear {
+    0% {
+        width:0;
+        white-space: nowrap;
+    }
+}
+
+@mixin Appear {
+    overflow: hidden;
+    width: 100%;
+    white-space: nowrap;
+    animation: letterAppear 1s 1 steps(30)
+}
+
+.appear{
+    @include Appear;
+}

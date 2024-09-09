@@ -1,0 +1,29 @@
+{
+  "name": "cv",
+  "version": "1.0.0",
+  "description": "Stiven Diaz CV",
+  "main": "index.js",
+  "scripts": {
+    "build-sass": "node-sass --include-path scss src/sass/index.scss src/styles/index.css",
+    "watch-sass": "nodemon -e scss -x \"npm run build-sass\" "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StivenDz/CV-.git"
+  },
+  "keywords": [
+    "HTML",
+    "CSS",
+    "JAVASCRIPT"
+  ],
+  "author": "Stiven Diaz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/StivenDz/CV-/issues"
+  },
+  "homepage": "https://github.com/StivenDz/CV-#readme",
+  "devDependencies": {
+    "node-sass": "^8.0.0",
+    "nodemon": "^3.0.1"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "en": [
+    {
+      "name": "Playing Drums",
+      "icon": "./src/assets/images/drum-set.png",
+      "description": "Enjoys playing drums in spare time."
+    },
+    {
+      "name": "Playing Soccer",
+      "icon": "./src/assets/images/soccer-ball.png",
+      "description": "Loves playing soccer with friends."
+    },
+    {
+      "name": "Coding",
+      "icon": "./src/assets/images/programming.png",
+      "description": "Passionate about coding and software development."
+    },
+    {
+      "name": "Studying",
+      "icon": "./src/assets/images/studying.png",
+      "description": "Enjoys learning new things and expanding knowledge."
+    }
+  ],
+  "es": [
+    {
+      "name": "Tocar la batería",
+      "icon": "./src/assets/images/drum-set.png",
+      "description": "Disfruta tocar la batería en su tiempo libre."
+    },
+    {
+      "name": "Jugar al fútbol",
+      "icon": "./src/assets/images/soccer-ball.png",
+      "description": "Le encanta jugar al fútbol con amigos."
+    },
+    {
+      "name": "Programar",
+      "icon": "./src/assets/images/programming.png",
+      "description": "Apasionado por la programación y el desarrollo de software."
+    },
+    {
+      "name": "Estudiar",
+      "icon": "./src/assets/images/studying.png",
+      "description": "Disfruta aprender cosas nuevas y ampliar su conocimiento."
+    }
+  ]
+}

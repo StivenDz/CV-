@@ -1,0 +1,232 @@
+{
+  "en": {
+    "education": [
+      {
+        "degree": "Full Stack Development",
+        "institution": "CODERHOUSE",
+        "dates": "12/FEB/2022 - 14/MAY/2023",
+        "logo": "./src/assets/logos/coderhouse.jpeg"
+      },
+      {
+        "degree": "Backend Developer",
+        "institution": "CODERHOUSE",
+        "dates": "14/OCT/2022 - 14/MAY/2023",
+        "logo": "./src/assets/logos/coderhouse.jpeg"
+      },
+      {
+        "degree": "React Developer",
+        "institution": "CODERHOUSE",
+        "dates": "14/AUG/2022 - 14/OCT/2022",
+        "logo": "./src/assets/logos/coderhouse.jpeg"
+      },
+      {
+        "degree": "JavaScript Developer",
+        "institution": "CODERHOUSE",
+        "dates": "14/MAY/2022 - 14/AUG/2022",
+        "logo": "./src/assets/logos/coderhouse.jpeg"
+      },
+      {
+        "degree": "Web Developer",
+        "institution": "CODERHOUSE",
+        "dates": "12/FEB/2022 - 14/MAY/2022",
+        "logo": "./src/assets/logos/coderhouse.jpeg"
+      },
+      {
+        "degree": "Programmer - Web Development",
+        "institution": "Universidad Del Norte (Colombia)",
+        "dates": "01/FEB/2021 - 30/NOV/2021",
+        "logo": "./src/assets/logos/uninorte.jpeg"
+      },
+      {
+        "degree": "Technician in Accounting of Commercial and Financial Operations",
+        "institution": "I.E.D Liceo Samario (SENA)",
+        "dates": "10/JAN/2018 - 30/OCT/2019",
+        "logo": "./src/assets/logos/sena.png"
+      },
+      {
+        "degree": "High School",
+        "institution": "I.E.D Liceo Samario",
+        "dates": "10/JAN/2013 - 30/OCT/2019",
+        "logo": "./src/assets/logos/lisama.jpg"
+      }
+    ],
+    "employment_history": [
+      {
+        "position": "Full Stack Developer",
+        "company": "MQA AMERICAS",
+        "dates": "19/JUL/2022 - 20/AUG/2024",
+        "logo": "./src/assets/logos/mqa.jpeg",
+        "contributions": [
+          {
+            "name": "Web Applications and Portals Development",
+            "tasks": [
+              "Implementation and development of new features, improvements, and maintenance of supplier portals and internal applications for various clients (CENOSA, Do it Center, ILP, CEMPRO, MQA Americas, Feduro).",
+              "Automation of processes and workflows, integration of web services, and creation of APIs for data exchange with external systems."
+            ]
+          },
+          {
+            "name": "Service Configuration and Implementation",
+            "tasks": [
+              "Configuration of servers (IIS, Linux, Windows Server), web services, and deployment of applications in development and production environments.",
+              "Adjustment and optimization of infrastructures to ensure the proper functioning of critical applications and web services (ILP, CEMPRO, Feduro)."
+            ]
+          },
+          {
+            "name": "Application Support and Maintenance",
+            "tasks": [
+              "Incident resolution and production support, including patch implementation, configuration adjustments, and application optimization.",
+              "Continuous maintenance and improvement of systems, including the creation of audit logs and validation of operational workflows."
+            ]
+          },
+          {
+            "name": "Specific Features Development",
+            "tasks": [
+              "Development of specialized modules such as analysis reports, loyalty points management systems, creation of digital signature flows, and improvement of user experience.",
+              "Implementation of functionalities like advanced filters, additional fields in forms, and endpoints for specific queries (CENOSA, Do it Center, ILP)."
+            ]
+          },
+          {
+            "name": "Project Collaboration and Coordination",
+            "tasks": [
+              "Participation in coordination meetings and comprehensive testing to ensure the quality of implementations.",
+              "Close collaboration with multidisciplinary teams to define, develop, and deploy new technological solutions."
+            ]
+          },
+          {
+            "name": "Documentation and Training",
+            "tasks": [
+              "Creation and updating of technical documentation, including user manuals and configuration guides for implemented developments and services.",
+              "Training users and support teams on the use and administration of new tools and systems."
+            ]
+          },
+          {
+            "name": "Project Estimation and Planning",
+            "tasks": [
+              "Involvement in estimating and planning projects for building new portals, rebuilding web services, and developing specific modules (MQA Americas, Feduro)."
+            ]
+          }
+        ]
+      },
+      {
+        "position": "Intern as Accounting Technician for Commercial and Financial Operations",
+        "company": "(ASI) ASESORÍAS Y SISTEMAS INTEGRALES",
+        "dates": "21/SEP/2018 - 21/OCT/2019"
+      }
+    ]
+  },
+  "es": {
+    "education": [
+      {
+        "degree": "Desarrollo Full Stack",
+        "institution": "CODERHOUSE",
+        "dates": "12/FEB/2022 - 14/MAY/2023",
+        "logo": "./src/assets/logos/coderhouse.jpeg"
+      },
+      {
+        "degree": "Desarrollador Backend",
+        "institution": "CODERHOUSE",
+        "dates": "14/OCT/2022 - 14/MAY/2023",
+        "logo": "./src/assets/logos/coderhouse.jpeg"
+      },
+      {
+        "degree": "Desarrollador React",
+        "institution": "CODERHOUSE",
+        "dates": "14/AUG/2022 - 14/OCT/2022",
+        "logo": "./src/assets/logos/coderhouse.jpeg"
+      },
+      {
+        "degree": "Desarrollador JavaScript",
+        "institution": "CODERHOUSE",
+        "dates": "14/MAY/2022 - 14/AUG/2022",
+        "logo": "./src/assets/logos/coderhouse.jpeg"
+      },
+      {
+        "degree": "Desarrollador Web",
+        "institution": "CODERHOUSE",
+        "dates": "12/FEB/2022 - 14/MAY/2022",
+        "logo": "./src/assets/logos/coderhouse.jpeg"
+      },
+      {
+        "degree": "Programador - Desarrollo Web",
+        "institution": "Universidad Del Norte (Colombia)",
+        "dates": "01/FEB/2021 - 30/NOV/2021",
+        "logo": "./src/assets/logos/uninorte.jpeg"
+      },
+      {
+        "degree": "Técnico en Contabilidad de Operaciones Comerciales y Financieras",
+        "institution": "I.E.D Liceo Samario (SENA)",
+        "dates": "10/JAN/2018 - 30/OCT/2019",
+        "logo": "./src/assets/logos/sena.png"
+      },
+      {
+        "degree": "Bachillerato",
+        "institution": "I.E.D Liceo Samario",
+        "dates": "10/JAN/2013 - 30/OCT/2019",
+        "logo": "./src/assets/logos/lisama.jpg"
+      }
+    ],
+    "employment_history": [
+      {
+        "position": "Desarrollador Full Stack",
+        "company": "MQA AMERICAS",
+        "dates": "19/JUL/2022 - 20/AUG/2024",
+        "logo": "./src/assets/logos/mqa.jpeg",
+        "contributions": [
+          {
+            "name": "Desarrollo de Aplicaciones Web y Portales",
+            "tasks": [
+              "Implementación y desarrollo de nuevas características, mejoras y mantenimiento de portales de proveedores y aplicaciones internas para diversos clientes (CENOSA, Do it Center, ILP, CEMPRO, MQA Americas, Feduro).",
+              "Automatización de procesos y flujos de trabajo, integración de servicios web y creación de APIs para el intercambio de datos con sistemas externos."
+            ]
+          },
+          {
+            "name": "Configuración e Implementación de Servicios",
+            "tasks": [
+              "Configuración de servidores (IIS, Linux, Windows Server), servicios web y despliegue de aplicaciones en entornos de desarrollo y producción.",
+              "Ajuste y optimización de infraestructuras para asegurar el correcto funcionamiento de aplicaciones y servicios web críticos (ILP, CEMPRO, Feduro)."
+            ]
+          },
+          {
+            "name": "Soporte y Mantenimiento de Aplicaciones",
+            "tasks": [
+              "Resolución de incidentes y soporte en producción, incluyendo la implementación de parches, ajustes de configuración y optimización de aplicaciones.",
+              "Mantenimiento continuo y mejora de sistemas, incluyendo la creación de registros de auditoría y validación de flujos operativos."
+            ]
+          },
+          {
+            "name": "Desarrollo de Funcionalidades Específicas",
+            "tasks": [
+              "Desarrollo de módulos especializados como informes de análisis, sistemas de gestión de puntos de fidelidad, creación de flujos de firmas digitales y mejora de la experiencia del usuario.",
+              "Implementación de funcionalidades como filtros avanzados, campos adicionales en formularios y puntos de acceso para consultas específicas (CENOSA, Do it Center, ILP)."
+            ]
+          },
+          {
+            "name": "Colaboración y Coordinación de Proyectos",
+            "tasks": [
+              "Participación en reuniones de coordinación y pruebas exhaustivas para asegurar la calidad de las implementaciones.",
+              "Colaboración cercana con equipos multidisciplinarios para definir, desarrollar y desplegar nuevas soluciones tecnológicas."
+            ]
+          },
+          {
+            "name": "Documentación y Capacitación",
+            "tasks": [
+              "Creación y actualización de documentación técnica, incluyendo manuales de usuario y guías de configuración para desarrollos y servicios implementados.",
+              "Capacitación a usuarios y equipos de soporte sobre el uso y administración de nuevas herramientas y sistemas."
+            ]
+          },
+          {
+            "name": "Estimación y Planificación de Proyectos",
+            "tasks": [
+              "Participación en la estimación y planificación de proyectos para construir nuevos portales, reconstruir servicios web y desarrollar módulos específicos (MQA Americas, Feduro)."
+            ]
+          }
+        ]
+      },
+      {
+        "position": "Practicante como Técnico en Contabilidad de Operaciones Comerciales y Financieras",
+        "company": "(ASI) ASESORÍAS Y SISTEMAS INTEGRALES",
+        "dates": "21/SEP/2018 - 21/OCT/2019"
+      }
+    ]
+  }
+}

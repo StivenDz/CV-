@@ -1,0 +1,22 @@
+{
+  "en": [
+    {
+      "name": "Spanish",
+      "knowledge": 5
+    },
+    {
+      "name": "English",
+      "knowledge": 3.5
+    }
+  ],
+  "es": [
+    {
+      "name": "Español",
+      "knowledge": 5
+    },
+    {
+      "name": "Ingles",
+      "knowledge": 3.5
+    }
+  ]
+}

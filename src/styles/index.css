@@ -1,0 +1,728 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;500;600;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  scroll-behavior: smooth;
+  font-family: 'Poppins'; }
+
+*::-webkit-scrollbar {
+  display: none; }
+
+body {
+  background: white;
+  height: 100%;
+  position: relative; }
+
+.backminipro {
+  position: absolute;
+  z-index: 199;
+  width: 100%;
+  height: 100%;
+  background: #000; }
+
+.backpro {
+  position: absolute;
+  z-index: 300;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to right, #000, transparent);
+  -webkit-backdrop-filter: blur(4px);
+  backdrop-filter: blur(4px); }
+
+.backpro2 {
+  position: absolute;
+  z-index: 500;
+  width: 100%;
+  height: 100%; }
+
+.img-back {
+  position: fixed;
+  z-index: 200;
+  width: 100%;
+  height: 100vh;
+  height: 100svh;
+  object-fit: cover; }
+
+.none {
+  display: none; }
+
+@keyframes expand {
+  0% {
+    height: 55vh;
+    height: 55svh; }
+  100% {
+    height: 100vh;
+    height: 100svh; } }
+
+@keyframes imgshadow {
+  0% {
+    filter: drop-shadow(0 0 0px rgba(255, 255, 255, 0)); }
+  100% {
+    filter: drop-shadow(0 0 17px #2d2e66); } }
+
+@keyframes letterAppear {
+  0% {
+    width: 0;
+    white-space: nowrap; } }
+
+.appear {
+  overflow: hidden;
+  width: 100%;
+  white-space: nowrap;
+  animation: letterAppear 1s 1 steps(30); }
+
+header {
+  width: 100%;
+  display: flex;
+  position: relative;
+  animation: expand 2s 1 both cubic-bezier(0.79, 0.14, 0.15, 0.86);
+  background-attachment: fixed;
+  overflow: hidden;
+  max-height: 650px !important; }
+  header > div > select#languague {
+    z-index: 1500;
+    padding: 5px 8px;
+    border-radius: 8px;
+    font-size: 14px;
+    outline: none;
+    border: none;
+    max-width: 93px;
+    cursor: pointer; }
+  header > div.contentImg {
+    width: 30%;
+    height: 100%;
+    flex-grow: 1;
+    border-radius: 50%; }
+    header > div.contentImg > img {
+      object-fit: cover;
+      width: 400px;
+      height: 500px;
+      position: relative;
+      z-index: 1200;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      filter: drop-shadow(0 0 7px black);
+      transition: all 1s;
+      clip-path: polygon(90% 0, 90% 10%, 100% 10%, 100% 69%, 69% 100%, 10% 100%, 10% 90%, 0 90%, 0 31%, 31% 0); }
+      header > div.contentImg > img:hover {
+        filter: drop-shadow(0 0 20px #000); }
+  header > div.name {
+    width: 70%;
+    height: 100%;
+    flex-grow: 2;
+    color: #fff;
+    padding-left: 40px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    z-index: 700;
+    justify-content: center; }
+    header > div.name > div > h1 {
+      font-size: 4.5vw;
+      line-height: 4.5vw; }
+    header > div.name > div > h3 {
+      font-size: 2.5vw;
+      line-height: 2.5vw;
+      color: rgba(255, 255, 255, 0.795); }
+  @media screen and (max-width: 1120px) {
+    header {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      overflow: hidden; }
+      header > div.name {
+        align-items: center;
+        padding-left: 0;
+        width: 100%; }
+        header > div.name > div > h1 {
+          font-size: 5.5vw;
+          line-height: 5.5vw;
+          text-align: center; }
+        header > div.name > div > h3 {
+          font-size: 3.5vw;
+          line-height: 3.5vw;
+          text-align: center; }
+      header > div.contentImg {
+        width: 40%; }
+        header > div.contentImg > img {
+          width: 300px;
+          height: 400px; } }
+  @media screen and (max-width: 740px) {
+    header {
+      border-radius: 0px; }
+      header > div.name {
+        align-items: center;
+        justify-content: center; } }
+  @media screen and (max-width: 670px) {
+    header > div.contentImg {
+      width: 40%; }
+    header > div.name {
+      padding-left: 0;
+      align-items: center;
+      justify-content: center; } }
+  @media screen and (max-width: 510px) {
+    header {
+      max-height: 640px; }
+      header > div.name > div > h1 {
+        font-size: 7.5vw;
+        line-height: 7.5vw; }
+      header > div.name > div > h3 {
+        font-size: 5.5vw;
+        line-height: 5.5vw; }
+      header > div.contentImg > img {
+        width: 200px;
+        height: 300px; } }
+  @media screen and (max-width: 400px) {
+    header > div.contentImg > img {
+      width: calc(853px / 3.5);
+      height: calc(1280px / 5); }
+    header > div.contentImg {
+      width: 100%; } }
+
+div.wrapper {
+  width: 50%;
+  height: 50%;
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+  bottom: -35px;
+  z-index: 700; }
+  div.wrapper > a.iconsocial {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    position: relative;
+    border-radius: 50%;
+    padding: 15px;
+    margin: 10px;
+    width: 4vw;
+    height: 4vw;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer; }
+    div.wrapper > a.iconsocial::before, div.wrapper > a.iconsocial::after {
+      content: '';
+      position: absolute;
+      box-sizing: border-box;
+      width: 100%;
+      height: 100%;
+      left: 0;
+      top: 0;
+      transition: .4s linear; }
+    div.wrapper > a.iconsocial:hover > div.tooltip {
+      top: -45px;
+      opacity: 1;
+      visibility: visible;
+      pointer-events: auto;
+      text-align: center; }
+    div.wrapper > a.iconsocial > div.tooltip {
+      font-family: 'Poppins', sans-serif;
+      position: absolute;
+      top: 0;
+      font-size: 14px;
+      color: #ffffff;
+      padding: 5px 8px;
+      border-radius: 5px;
+      box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+      opacity: 0;
+      pointer-events: none;
+      transition: all 0.35 cubic-bezier 0.68, -0.55, 9.265, 1.55; }
+    div.wrapper > a.iconsocial > span > i {
+      color: #fff;
+      transition: .4s linear;
+      font-size: 22px; }
+    @media screen and (max-width: 320px) {
+      div.wrapper > a.iconsocial {
+        width: 35px;
+        height: 30px; } }
+  @media screen and (max-width: 1120px) {
+    div.wrapper {
+      justify-content: center;
+      width: 100%; } }
+  @media screen and (max-width: 740px) {
+    div.wrapper {
+      left: 0; } }
+
+body > main {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  z-index: 600;
+  background: white;
+  display: flex;
+  padding-bottom: 40px; }
+  body > main > aside {
+    position: sticky;
+    top: 0;
+    width: 30%;
+    height: 100%;
+    padding: 5px 10px;
+    border-radius: 15px;
+    transition: width .5s; }
+    body > main > aside > div.skills {
+      margin: 15px 0px 40px; }
+      body > main > aside > div.skills > h4 {
+        font-size: 30px;
+        margin-bottom: 10px;
+        font-weight: 500; }
+      body > main > aside > div.skills > div#skillsContent {
+        display: flex;
+        flex-direction: column;
+        gap: 10px; }
+        body > main > aside > div.skills > div#skillsContent > section > h5 {
+          padding: 5px;
+          font-size: 16px;
+          font-weight: 500; }
+        body > main > aside > div.skills > div#skillsContent > section > div {
+          display: grid;
+          grid-template-columns: repeat(2, minmax(100px, 150px));
+          grid-template-rows: repeat(auto-fill, minmax(50px, 1fr));
+          row-gap: 10px;
+          column-gap: 10px; }
+          body > main > aside > div.skills > div#skillsContent > section > div > div {
+            border: 1px solid #f1f1f1;
+            border-radius: 8px;
+            padding: 5px 10px;
+            cursor: pointer; }
+            body > main > aside > div.skills > div#skillsContent > section > div > div:hover {
+              background-color: #f1f1f1a1; }
+            body > main > aside > div.skills > div#skillsContent > section > div > div > div:not(.level) {
+              display: flex;
+              justify-content: space-between;
+              align-items: center;
+              gap: 10px; }
+              body > main > aside > div.skills > div#skillsContent > section > div > div > div:not(.level) > p {
+                font-size: 14px;
+                color: #2b2b2b; }
+              body > main > aside > div.skills > div#skillsContent > section > div > div > div:not(.level) > figure > img {
+                object-fit: contain;
+                width: 35px;
+                height: 35px; }
+            @media screen and (max-width: 1100px) {
+              body > main > aside > div.skills > div#skillsContent > section > div > div {
+                display: flex;
+                flex-direction: column;
+                gap: 7px; }
+                body > main > aside > div.skills > div#skillsContent > section > div > div > div:not(.level) > p {
+                  font-size: 13px;
+                  color: #2b2b2b; }
+                body > main > aside > div.skills > div#skillsContent > section > div > div > div:not(.level) > figure > img {
+                  width: 25px;
+                  height: 25px; } }
+    body > main > aside > div.languagues {
+      margin-bottom: 45px; }
+      body > main > aside > div.languagues > h4 {
+        font-size: 30px;
+        margin-bottom: 10px;
+        font-weight: 500; }
+      body > main > aside > div.languagues > div#languaguesContent > div {
+        padding: 5px 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 7px; }
+      body > main > aside > div.languagues > p {
+        padding: 5px;
+        color: #2b2b2b; }
+    body > main > aside > div.hobbies {
+      margin-bottom: 40px; }
+      body > main > aside > div.hobbies > h4 {
+        font-size: 30px;
+        margin-bottom: 10px;
+        font-weight: 500; }
+      body > main > aside > div.hobbies > div > p {
+        padding: 2px 10px;
+        color: #2b2b2b; }
+      body > main > aside > div.hobbies > div > img {
+        display: none; }
+      @media screen and (max-width: 960px) {
+        body > main > aside > div.hobbies > div {
+          width: 60%;
+          display: flex;
+          justify-content: space-between; }
+          body > main > aside > div.hobbies > div > img {
+            width: 46px;
+            object-fit: cover;
+            display: block; } }
+      @media screen and (max-width: 335px) {
+        body > main > aside > div.hobbies > div {
+          width: 75%;
+          margin-bottom: 20px; } }
+    body > main > aside > div.contact {
+      border-top: 1px solid #d5d5d5; }
+      body > main > aside > div.contact > h4 {
+        padding: 5px 0px;
+        font-size: 30px;
+        font-weight: 500; }
+      body > main > aside > div.contact > div > a {
+        text-decoration: none;
+        color: #2b2b2b;
+        padding-left: 3px; }
+        body > main > aside > div.contact > div > a:hover {
+          text-decoration: none;
+          color: black;
+          font-weight: 900; }
+      body > main > aside > div.contact > div > div {
+        display: flex;
+        gap: 7px;
+        padding: 0 10px; }
+        body > main > aside > div.contact > div > div > label {
+          font-weight: 500; }
+        body > main > aside > div.contact > div > div > a {
+          text-decoration: none;
+          color: #2b2b2b;
+          padding-left: 3px; }
+          body > main > aside > div.contact > div > div > a:hover {
+            text-decoration: none;
+            color: black;
+            font-weight: 500; }
+      @media screen and (max-width: 855px) {
+        body > main > aside > div.contact > div > b {
+          padding-left: 0; } }
+    @media screen and (max-width: 984px) {
+      body > main > aside {
+        width: 35%; } }
+    @media screen and (max-width: 960px) {
+      body > main > aside {
+        order: 2;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 0 40px; }
+        body > main > aside > div.skills {
+          margin-bottom: 60px;
+          padding-left: 0; }
+          body > main > aside > div.skills > h4 {
+            font-size: 28px; }
+          body > main > aside > div.skills > div#skillsContent > section > div {
+            grid-template-columns: repeat(auto-fill, minmax(100px, 150px)); }
+          body > main > aside > div.skills > p {
+            text-align: left;
+            padding-left: 12%;
+            margin-top: 15px; }
+        body > main > aside > div.languagues {
+          margin-bottom: 60px; }
+          body > main > aside > div.languagues > h4 {
+            font-size: 28px; }
+          body > main > aside > div.languagues > p {
+            text-align: left;
+            padding-left: 12%;
+            margin-top: 15px; }
+        body > main > aside > div.hobbies {
+          margin-bottom: 40px; }
+          body > main > aside > div.hobbies > h4 {
+            font-size: 28px; }
+          body > main > aside > div.hobbies > div {
+            display: flex;
+            justify-content: space-between;
+            width: 80%;
+            margin-bottom: 15px; }
+            body > main > aside > div.hobbies > div > p {
+              padding-left: 15px;
+              padding-top: 15px; }
+            body > main > aside > div.hobbies > div > img {
+              width: 50px;
+              object-fit: contain; }
+        body > main > aside > div.contact > h4 {
+          font-size: 28px; }
+        body > main > aside > div.contact > div > b {
+          padding-left: 15px;
+          padding-top: 15px; }
+        body > main > aside > div.contact > div.res-none {
+          display: flex;
+          justify-content: center; }
+          body > main > aside > div.contact > div.res-none > div {
+            display: flex;
+            flex-direction: column;
+            align-items: center; } }
+    @media screen and (max-width: 720px) {
+      body > main > aside > div.contact > div.res-none {
+        display: none; }
+      body > main > aside > div.contact > div.mini-footer {
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 25px; }
+        body > main > aside > div.contact > div.mini-footer > a > img {
+          width: 45px;
+          object-fit: contain; } }
+    @media screen and (max-width: 550px) {
+      body > main > aside {
+        padding: 0 10px; }
+        body > main > aside > div.skills > h4 {
+          font-size: 22px;
+          text-align: center; }
+        body > main > aside > div.skills > div#skillsContent > section {
+          text-align: center; }
+          body > main > aside > div.skills > div#skillsContent > section > div {
+            place-content: center; }
+        body > main > aside > div.languagues > h4 {
+          font-size: 22px;
+          text-align: center; }
+        body > main > aside > div.languagues > div#languaguesContent {
+          display: flex;
+          justify-content: center; }
+          body > main > aside > div.languagues > div#languaguesContent > div > p {
+            text-align: center; }
+        body > main > aside > div.hobbies > h4 {
+          font-size: 22px;
+          text-align: center; }
+        body > main > aside > div.contact > h4 {
+          font-size: 22px;
+          text-align: center; } }
+  body > main > section.description {
+    position: relative;
+    width: 70%;
+    height: 100%;
+    padding: 25px;
+    border-radius: 15px;
+    top: 0;
+    right: 0;
+    border-left: 1px solid #f1f1f1; }
+    body > main > section.description > div.profile {
+      margin-bottom: 30px;
+      padding: 0 40px;
+      width: 100%; }
+      body > main > section.description > div.profile > h3 {
+        margin-bottom: 5px;
+        font-size: 30px;
+        font-weight: 500; }
+      body > main > section.description > div.profile > div#presentation {
+        display: flex;
+        flex-direction: column; }
+        body > main > section.description > div.profile > div#presentation > code {
+          margin-bottom: 10px; }
+        body > main > section.description > div.profile > div#presentation > span:last-of-type {
+          margin-bottom: 10px; }
+      body > main > section.description > div.profile > p {
+        padding: 20px 0;
+        color: #2b2b2b;
+        line-height: 25px;
+        text-align: justify;
+        padding: 0 7px !important;
+        margin-bottom: 20px; }
+      body > main > section.description > div.profile > ul {
+        list-style-image: url(../assets/icons/icon-plus.png);
+        list-style-position: inside;
+        width: 85%; }
+        body > main > section.description > div.profile > ul > h4 {
+          font-size: 17px;
+          font-weight: 500; }
+        body > main > section.description > div.profile > ul > li {
+          padding: 4px 0px;
+          margin-bottom: 17px;
+          font-size: 15px; }
+          body > main > section.description > div.profile > ul > li::marker {
+            border-radius: 50% !important; }
+          body > main > section.description > div.profile > ul > li > ul {
+            list-style-image: url(../assets/icons/icon-menos.png); }
+          body > main > section.description > div.profile > ul > li.keySkills {
+            margin-bottom: 0px; }
+        @media screen and (max-width: 440px) {
+          body > main > section.description > div.profile > ul {
+            padding: 0  5px 0 25px; } }
+      @media screen and (max-width: 440px) {
+        body > main > section.description > div.profile {
+          padding: 0  0px 0 5px; } }
+    body > main > section.description > div.education {
+      margin-bottom: 30px;
+      padding: 0 40px; }
+      body > main > section.description > div.education > h3 {
+        margin-bottom: 5px;
+        font-size: 30px;
+        font-weight: 500; }
+      body > main > section.description > div.education > div {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+        grid-template-rows: repeat(auto-fill, minmax(50px, 1fr));
+        gap: 10px; }
+        body > main > section.description > div.education > div > div {
+          border: 1px solid #ebebeb;
+          border-radius: 8px;
+          padding: 5px 10px;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between; }
+          body > main > section.description > div.education > div > div:hover {
+            background-color: #f1f1f1a1; }
+          body > main > section.description > div.education > div > div > div:first-of-type {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 5px;
+            width: 100%; }
+            body > main > section.description > div.education > div > div > div:first-of-type > h4 {
+              font-size: 16px;
+              font-weight: 900;
+              color: #353535;
+              text-wrap: wrap;
+              text-align: left;
+              line-height: 16px; }
+            body > main > section.description > div.education > div > div > div:first-of-type > figure {
+              width: fit-content;
+              display: grid;
+              place-items: center; }
+              body > main > section.description > div.education > div > div > div:first-of-type > figure > img {
+                border-radius: 50%;
+                height: 40px;
+                width: 40px;
+                object-fit: fill; }
+          body > main > section.description > div.education > div > div > div:last-of-type {
+            display: flex;
+            flex-direction: column;
+            gap: 4px; }
+            body > main > section.description > div.education > div > div > div:last-of-type > span:first-of-type {
+              font-size: 14px;
+              line-height: 18px;
+              display: block; }
+            body > main > section.description > div.education > div > div > div:last-of-type > span:last-of-type {
+              display: block;
+              font-size: 12px; }
+          body > main > section.description > div.education > div > div > hr {
+            display: block;
+            margin-bottom: 30px; }
+      @media screen and (max-width: 550px) {
+        body > main > section.description > div.education > div > div > div:first-of-type > h4 {
+          font-size: 14px;
+          font-weight: 600; }
+        body > main > section.description > div.education > div > div > div:first-of-type > figure {
+          width: fit-content;
+          display: grid;
+          place-items: center; }
+          body > main > section.description > div.education > div > div > div:first-of-type > figure > img {
+            height: 30px;
+            width: 30px; }
+        body > main > section.description > div.education > div > div > div:last-of-type > span:first-of-type {
+          font-size: 13px;
+          line-height: 13px; }
+        body > main > section.description > div.education > div > div > div:last-of-type > span:last-of-type {
+          font-size: 11px; } }
+    body > main > section.description > div.history {
+      margin-bottom: 30px;
+      padding: 0 40px; }
+      body > main > section.description > div.history > h3 {
+        margin-bottom: 5px;
+        font-size: 30px;
+        font-weight: 500; }
+      body > main > section.description > div.history > div {
+        display: flex;
+        flex-direction: column;
+        gap: 15px; }
+        body > main > section.description > div.history > div > div > span:first-of-type {
+          padding-bottom: 15px; }
+        body > main > section.description > div.history > div > div > div {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          max-width: fit-content;
+          gap: 20px; }
+          body > main > section.description > div.history > div > div > div > h4 {
+            font-size: 16px;
+            font-weight: 900;
+            color: #353535; }
+          body > main > section.description > div.history > div > div > div > figure {
+            width: fit-content; }
+            body > main > section.description > div.history > div > div > div > figure > img {
+              border-radius: 50%;
+              height: 40px;
+              width: 40px;
+              object-fit: fill; }
+        body > main > section.description > div.history > div > div > span:last-of-type {
+          margin-bottom: 15px;
+          display: block;
+          font-size: 12px; }
+        body > main > section.description > div.history > div > div > section > div {
+          border-bottom: 1px solid #f1f1f1;
+          padding: 5px 10px; }
+          body > main > section.description > div.history > div > div > section > div > h6 {
+            padding: 5px 10px;
+            font-size: 15px;
+            line-height: 15px; }
+          body > main > section.description > div.history > div > div > section > div > ul {
+            padding: 0 10px; }
+            body > main > section.description > div.history > div > div > section > div > ul > li {
+              padding: 4px 0px;
+              font-size: 14px; }
+            @media screen and (max-width: 440px) {
+              body > main > section.description > div.history > div > div > section > div > ul {
+                padding: 0  5px 0 25px; } }
+    @media screen and (max-width: 984px) {
+      body > main > section.description {
+        width: 65%;
+        padding: 0;
+        transition: width .5s; } }
+    @media screen and (max-width: 715px) {
+      body > main > section.description > div {
+        padding: 0  5px 0 40px; }
+      body > main > section.description > div.profile > ul {
+        width: 100%; } }
+    @media screen and (max-width: 408px) {
+      body > main > section.description > div.history {
+        padding: 0  3px 0 7px; }
+      body > main > section.description > div.education {
+        padding: 0  3px 0 12px; } }
+    @media screen and (max-width: 360px) {
+      body > main > section.description > div > h3 {
+        font-size: 22px; } }
+    @media screen and (max-width: 960px) {
+      body > main > section.description {
+        position: relative;
+        width: 100%; } }
+    @media screen and (max-width: 550px) {
+      body > main > section.description > div.profile {
+        padding: 0 10px; }
+        body > main > section.description > div.profile > h3 {
+          font-size: 20px; }
+        body > main > section.description > div.profile > ul > h4 {
+          font-size: 15px; }
+        body > main > section.description > div.profile > ul > li {
+          font-size: 14px; }
+      body > main > section.description > div.education {
+        padding: 0 15px; }
+        body > main > section.description > div.education > h3 {
+          font-size: 22px; }
+      body > main > section.description > div.history {
+        padding: 0 15px; }
+        body > main > section.description > div.history > h3 {
+          font-size: 22px; } }
+
+@media screen and (max-width: 960px) {
+  body {
+    padding: 0; }
+    body > main {
+      display: flex;
+      flex-direction: column; } }
+
+div.level {
+  display: flex;
+  gap: 2px;
+  margin-bottom: 5px;
+  justify-content: flex-start; }
+  div.level > div.have {
+    width: 40px;
+    height: 5px;
+    background: #0f0f0f;
+    border-radius: 15px; }
+  div.level > div.limit {
+    width: 40px;
+    height: 5px;
+    background: #7a7a7a;
+    border-radius: 15px; }
+  div.level > svg {
+    fill: #f9c80e;
+    height: 20px;
+    width: 20px; }
+
+.block360px,
+.block408px {
+  display: none; }
+
+.dis {
+  display: none; }
+  @media screen and (max-width: 855px) {
+    .dis {
+      display: block; } }

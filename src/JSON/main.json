@@ -1,0 +1,144 @@
+{
+  "en": {
+    "professionalTitle": "Full Stack Developer",
+    "appTitles": {
+      "skills": "Skills",
+      "languagues": "Languagues",
+      "hobbies": "Hobbies",
+      "contact": "Contact",
+
+      "profile": "Profile",
+      "education": "Education",
+      "employmentHistory": "Employment History"
+    },
+    "presentation": [
+      "<code>< Hi there I'm Stiven Diaz /> 👋</code>",
+      "<span>- 🎉 I'm <span id='yearsOld'></span></span>",
+      "<span>- 🥇 I'm a Full Stack Developer</span>"
+    ],
+    "description": "I am a Full Stack Developer with extensive experience in all stages of web development, from initial design and architecture to deployment and maintenance. I have a strong background in developing, testing, and debugging both frontend and backend applications, ensuring seamless integration and performance. <br /><br /> I bring a diverse and versatile skill set, proficient in technologies such as TypeScript, SASS, ReactJS, Angular, Node.js, and Java (SpringBoot). I am adept at self-managing during independent projects and excel in collaborative team environments.",
+    "professionalExperiences": [
+      {
+        "name": "End-to-End Web Development",
+        "descriptions": [
+          "Skilled in developing and maintaining complex web portals and internal applications, implementing new features, and optimizing existing functionalities for various clients, including CENOSA, Do it Center, ILP, CEMPRO, MQA Americas, and Feduro."
+        ]
+      },
+      {
+        "name": "Backend Services and API Development",
+        "descriptions": [
+          "Experience in creating and configuring RESTful APIs and web services for data exchange between systems, integrating third-party services, and ensuring secure and efficient data handling."
+        ]
+      },
+      {
+        "name": "Infrastructure and Server Management",
+        "descriptions": [
+          "Proficient in configuring servers (IIS, Linux, Windows Server) and deploying applications in development and production environments. Skilled in optimizing infrastructure to ensure reliable application performance."
+        ]
+      },
+      {
+        "name": "Process Automation and Workflow Optimization",
+        "descriptions": [
+          "Expertise in automating business processes, creating digital signature flows, and developing specialized modules for improving user experience and operational efficiency."
+        ]
+      },
+      {
+        "name": "Cross-Functional Collaboration",
+        "descriptions": [
+          "Strong communicator with experience in coordinating with multidisciplinary teams, participating in project planning, and conducting comprehensive testing to deliver high-quality solutions."
+        ]
+      },
+      {
+        "name": "Technical Documentation and Training",
+        "descriptions": [
+          "Capable of creating detailed technical documentation, user manuals, and guides. Experienced in training end-users and support teams on new tools and applications."
+        ]
+      },
+      {
+        "name": "Project Estimation and Planning",
+        "descriptions": [
+          "Involved in project estimation and planning for new web portals, rebuilding services, and developing new modules, contributing to strategic decision-making and resource allocation."
+        ]
+      }
+    ],
+    "keySkills": {
+      "name": "key Skills",
+      "skills": [
+        "Advanced proficiency in TypeScript, SASS, ReactJS, Angular, Node.js, Java (SpringBoot).",
+        "Strong debugging and testing skills to ensure robust code and functionality.",
+        "Ability to lead projects independently and work effectively in a team environment."
+      ]
+    }
+  },
+  "es": {
+    "professionalTitle": "Desarrollador Full Stack",
+    "appTitles": {
+      "skills": "Aptitudes",
+      "languagues": "Idiomas",
+      "hobbies": "Hobbies",
+      "contact": "Contacto",
+
+      "profile": "Perfil",
+      "education": "Educacion",
+      "employmentHistory": "Historial Laboral"
+    },
+    "presentation": [
+      "<code>< Hola soy Stiven Diaz /> 👋</code>",
+      "<span>- 🎉 Tengo <span id='yearsOld'></span></span>",
+      "<span>- 🥇 Soy un Desarrollador Full Stack</span>"
+    ],
+    "description": "Soy un Desarrollador Full Stack con amplia experiencia en todas las etapas del desarrollo web, desde el diseño y la arquitectura inicial hasta el despliegue y mantenimiento. Tengo una sólida formación en el desarrollo, prueba y depuración de aplicaciones tanto de frontend como de backend, asegurando una integración y rendimiento sin problemas. <br /><br /> Poseo un conjunto de habilidades diverso y versátil, con dominio en tecnologías como TypeScript, SASS, ReactJS, Angular, Node.js y Java (SpringBoot). Soy competente en la autogestión durante proyectos independientes y sobresalgo en entornos de trabajo en equipo.",
+    "professionalExperiences": [
+      {
+        "name": "Desarrollo Web de Extremo a Extremo",
+        "descriptions": [
+          "Habilidad en desarrollar y mantener portales web complejos y aplicaciones internas, implementando nuevas funciones y optimizando funcionalidades existentes para diversos clientes, incluidos CENOSA, Do it Center, ILP, CEMPRO, MQA Americas y Feduro."
+        ]
+      },
+      {
+        "name": "Desarrollo de Servicios Backend y API",
+        "descriptions": [
+          "Experiencia en la creación y configuración de APIs RESTful y servicios web para el intercambio de datos entre sistemas, integración de servicios de terceros, y asegurando un manejo de datos seguro y eficiente."
+        ]
+      },
+      {
+        "name": "Gestión de Infraestructura y Servidores",
+        "descriptions": [
+          "Competencia en la configuración de servidores (IIS, Linux, Windows Server) y despliegue de aplicaciones en entornos de desarrollo y producción. Habilidad en la optimización de infraestructuras para asegurar un rendimiento confiable de las aplicaciones."
+        ]
+      },
+      {
+        "name": "Automatización de Procesos y Optimización de Flujos de Trabajo",
+        "descriptions": [
+          "Experto en automatizar procesos empresariales, crear flujos de firmas digitales y desarrollar módulos especializados para mejorar la experiencia del usuario y la eficiencia operativa."
+        ]
+      },
+      {
+        "name": "Colaboración Multifuncional",
+        "descriptions": [
+          "Comunicador efectivo con experiencia en la coordinación con equipos multidisciplinarios, participando en la planificación de proyectos y realizando pruebas exhaustivas para entregar soluciones de alta calidad."
+        ]
+      },
+      {
+        "name": "Documentación Técnica y Capacitación",
+        "descriptions": [
+          "Capaz de crear documentación técnica detallada, manuales de usuario y guías. Experiencia en capacitar a los usuarios finales y equipos de soporte sobre nuevas herramientas y aplicaciones."
+        ]
+      },
+      {
+        "name": "Estimación y Planificación de Proyectos",
+        "descriptions": [
+          "Participación en la estimación y planificación de proyectos para nuevos portales web, reconstrucción de servicios y desarrollo de nuevos módulos, contribuyendo a la toma de decisiones estratégicas y asignación de recursos."
+        ]
+      }
+    ],
+    "keySkills": {
+      "name": "Aptitudes Claves",
+      "skills": [
+        "Dominio avanzado de TypeScript, SASS, ReactJS, Angular, Node.js, Java (SpringBoot).",
+        "Fuertes habilidades de depuración y pruebas para garantizar código robusto y funcional.",
+        "Capacidad para liderar proyectos de forma independiente y trabajar eficazmente en un entorno de equipo."
+      ]
+    }
+  }
+}

@@ -1,0 +1,163 @@
+[
+  {
+    "section":"Front-End",
+    "skills":[
+
+      {
+        "name": "HTML5",
+        "svgIcon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+        "knowledge": 5
+      },
+      {
+        "name": "CSS3",
+        "svgIcon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+        "knowledge": 5
+      },
+      {
+        "name": "SASS",
+        "svgIcon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg",
+        "knowledge": 5
+      },
+      {
+        "name": "JavaScript",
+        "svgIcon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+        "knowledge": 5
+      },
+      {
+        "name": "TypeScript",
+        "svgIcon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg",
+        "knowledge": 5
+      },
+      {
+        "name": "Electron",
+        "svgIcon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/electron/electron-original.svg",
+        "knowledge": 4
+      },
+      {
+        "name": "ReactJS",
+        "svgIcon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+        "knowledge": 5
+      },
+      {
+        "name": "AngularJS",
+        "svgIcon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg",
+        "knowledge": 4
+      },
+      {
+        "name": "Flutter",
+        "svgIcon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/flutter/flutter-original.svg",
+        "knowledge": 3.5
+      }
+    ]
+  },
+  {
+    "section":"Back-End",
+    "skills":[
+      {
+        "name": "NodeJS",
+        "svgIcon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
+        "knowledge": 5
+      },
+      {
+        "name": "NestJs ",
+        "svgIcon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nestjs/nestjs-original.svg",
+        "knowledge": 5
+      },
+      {
+        "name": "Nginx",
+        "svgIcon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nginx/nginx-original.svg",
+        "knowledge": 5
+      },
+      {
+        "name": "Java",
+        "svgIcon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg",
+        "knowledge": 4
+      },
+      {
+        "name": "SpringBoot",
+        "svgIcon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg",
+        "knowledge": 4
+      },
+      {
+        "name": ".NET Core",
+        "svgIcon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dotnetcore/dotnetcore-original.svg",
+        "knowledge": 3
+      },
+      {
+        "name": ".NET Framework",
+        "svgIcon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dot-net/dot-net-original-wordmark.svg",
+        "knowledge": 3
+      },
+      {
+        "name": "Python",
+        "svgIcon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
+        "knowledge": 3
+      },
+      {
+        "name": "Flask",
+        "svgIcon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg",
+        "knowledge": 2
+      }
+    ]
+  },
+  {
+    "section":"Storage",
+    "skills":[
+      {
+        "name": "MySQL",
+        "svgIcon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg",
+        "knowledge": 5
+      },
+      {
+        "name": "SQL Server",
+        "svgIcon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/microsoftsqlserver/microsoftsqlserver-plain.svg",
+        "knowledge": 5
+      },
+      {
+        "name": "FireBase",
+        "svgIcon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/firebase/firebase-original.svg",
+        "knowledge": 4
+      },
+      {
+        "name": "MongoDB",
+        "svgIcon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg",
+        "knowledge": 4
+      }
+    ]
+  },
+  {
+    "section":"DevOps",
+    "skills":[
+      {
+        "name": "Docker",
+        "svgIcon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original-wordmark.svg",
+        "knowledge": 4
+      },
+      {
+        "name": "Ubuntu",
+        "svgIcon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/ubuntu/ubuntu-original.svg",
+        "knowledge": 4
+      },
+      {
+        "name": "Windows",
+        "svgIcon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/windows11/windows11-original.svg",
+        "knowledge": 5
+      },
+      {
+        "name": "Git",
+        "svgIcon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",
+        "knowledge": 5
+      },
+      {
+        "name": "GitHub",
+        "svgIcon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg",
+        "knowledge": 5
+      },
+      {
+        "name": "GitLab",
+        "svgIcon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/gitlab/gitlab-original.svg",
+        "knowledge": 5
+      }
+    ]
+  }
+]

@@ -526,10 +526,10 @@ body > main {
             margin-bottom: 0px; }
         @media screen and (max-width: 440px) {
           body > main > section.description > div.profile > ul {
-            padding: 0  5px 0 25px; } }
+            padding: 0 5px 0 25px; } }
       @media screen and (max-width: 440px) {
         body > main > section.description > div.profile {
-          padding: 0  0px 0 5px; } }
+          padding: 0 0px 0 5px; } }
     body > main > section.description > div.education {
       margin-bottom: 30px;
       padding: 0 40px; }
@@ -640,10 +640,49 @@ body > main {
         body > main > section.description > div.history > div > div > section > div {
           border-bottom: 1px solid #f1f1f1;
           padding: 5px 10px; }
+          body > main > section.description > div.history > div > div > section > div > div {
+            margin: 10px 0px;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            gap: 10px; }
+            body > main > section.description > div.history > div > div > section > div > div > h6 {
+              padding: 5px 10px;
+              font-size: 15px;
+              line-height: 15px; }
+            body > main > section.description > div.history > div > div > section > div > div > span {
+              padding: 1px 10px;
+              border-radius: 25px;
+              background: #2664ea1a;
+              border: 1px solid #2665ea;
+              cursor: pointer; }
+              body > main > section.description > div.history > div > div > section > div > div > span > a {
+                color: black;
+                font-size: 13px;
+                text-decoration: none; }
+              body > main > section.description > div.history > div > div > section > div > div > span:hover {
+                background: #2664ea; }
+                body > main > section.description > div.history > div > div > section > div > div > span:hover > a {
+                  color: #fff; }
           body > main > section.description > div.history > div > div > section > div > h6 {
             padding: 5px 10px;
             font-size: 15px;
             line-height: 15px; }
+          body > main > section.description > div.history > div > div > section > div > span {
+            padding: 1px 10px;
+            border-radius: 25px;
+            background: #2664ea1a;
+            border: 1px solid #2665ea;
+            margin-left: 10px;
+            cursor: pointer; }
+            body > main > section.description > div.history > div > div > section > div > span > a {
+              color: black;
+              font-size: 13px;
+              text-decoration: none; }
+            body > main > section.description > div.history > div > div > section > div > span:hover {
+              background: #2664ea; }
+              body > main > section.description > div.history > div > div > section > div > span:hover > a {
+                color: #fff; }
           body > main > section.description > div.history > div > div > section > div > ul {
             padding: 0 10px; }
             body > main > section.description > div.history > div > div > section > div > ul > li {
@@ -651,7 +690,7 @@ body > main {
               font-size: 14px; }
             @media screen and (max-width: 440px) {
               body > main > section.description > div.history > div > div > section > div > ul {
-                padding: 0  5px 0 25px; } }
+                padding: 0 5px 0 25px; } }
     @media screen and (max-width: 984px) {
       body > main > section.description {
         width: 65%;
@@ -659,14 +698,14 @@ body > main {
         transition: width .5s; } }
     @media screen and (max-width: 715px) {
       body > main > section.description > div {
-        padding: 0  5px 0 40px; }
+        padding: 0 5px 0 40px; }
       body > main > section.description > div.profile > ul {
         width: 100%; } }
     @media screen and (max-width: 408px) {
       body > main > section.description > div.history {
-        padding: 0  3px 0 7px; }
+        padding: 0 3px 0 7px; }
       body > main > section.description > div.education {
-        padding: 0  3px 0 12px; } }
+        padding: 0 3px 0 12px; } }
     @media screen and (max-width: 360px) {
       body > main > section.description > div > h3 {
         font-size: 22px; } }

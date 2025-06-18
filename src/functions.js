@@ -264,8 +264,17 @@ export const renderEmploymentHistoryComponent = (languague) => {
                                 hisotry.contributions.map((contribution)=>(
                                     `
                                         <div>
-                                            <h6>${contribution.name}</h6>
-    
+                                            <div>
+                                                <h6>${contribution.name}</h6>
+                                                ${
+                                                    contribution?.link  ?
+                                                    `<span>
+                                                        <a href="${contribution.link}" target="_BLANK">${contribution.link}</a>
+                                                    </span>`
+                                                    :
+                                                    ""
+                                                }
+                                            </div>
                                             <ul>
                                                 ${
                                                     contribution.tasks.map((task)=>(

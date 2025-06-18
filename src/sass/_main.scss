@@ -6,7 +6,8 @@ header {
     background-attachment: fixed;
     overflow: hidden;
     max-height: 650px !important;
-    &>div>select#languague{
+
+    &>div>select#languague {
         // position: absolute;
         // right: 10px;
         // top: 10px;
@@ -20,6 +21,7 @@ header {
         cursor: pointer;
         margin-top: 7px;
     }
+
     &>div.contentImg {
         width: 30%;
         height: 100%;
@@ -48,6 +50,7 @@ header {
             // clip-path: polygon(81% 0%, 81% 18%, 100% 18%, 100% 63%, 61% 100%, 21% 100%, 21% 79%, 0% 79%, 0% 35%, 35% 0%);
             // clip-path: polygon(90% 0, 90% 10%, 100% 10%, 100% 69%, 69% 100%, 10% 100%, 10% 90%, 0 90%, 0 38%, 38% 0);
             clip-path: polygon(90% 0, 90% 10%, 100% 10%, 100% 69%, 69% 100%, 10% 100%, 10% 90%, 0 90%, 0 31%, 31% 0);
+
             &:hover {
                 filter: drop-shadow(0 0 20px #000);
             }
@@ -79,7 +82,8 @@ header {
             }
         }
     }
-    @media screen and (max-width: 1120px){
+
+    @media screen and (max-width: 1120px) {
         flex-direction: column;
         justify-content: center;
         align-items: center;
@@ -89,14 +93,14 @@ header {
             align-items: center;
             padding-left: 0;
             width: 100%;
-    
+
             &>div {
                 &>h1 {
                     font-size: 5.5vw;
                     line-height: 5.5vw;
                     text-align: center;
                 }
-    
+
                 &>h3 {
                     font-size: 3.5vw;
                     line-height: 3.5vw;
@@ -104,14 +108,17 @@ header {
                 }
             }
         }
-        &>div.contentImg{
+
+        &>div.contentImg {
             width: 40%;
+
             &>img {
                 width: 300px;
                 height: 400px;
             }
         }
     }
+
     @media screen and (max-width:740px) {
         border-radius: 0px;
 
@@ -122,10 +129,11 @@ header {
     }
 
     @media screen and (max-width:670px) {
-        &>div.contentImg{
+        &>div.contentImg {
             width: 40%;
         }
-        &>div.name{
+
+        &>div.name {
             padding-left: 0;
             align-items: center;
             justify-content: center;
@@ -134,20 +142,22 @@ header {
 
     @media screen and (max-width:510px) {
         max-height: 640px;
+
         &>div.name {
             &>div {
                 &>h1 {
                     font-size: 7.5vw;
                     line-height: 7.5vw;
                 }
-    
+
                 &>h3 {
                     font-size: 5.5vw;
                     line-height: 5.5vw;
                 }
             }
         }
-        &>div.contentImg{
+
+        &>div.contentImg {
             &>img {
                 width: 200px;
                 height: 300px;
@@ -156,11 +166,12 @@ header {
     }
 
     @media screen and (max-width:400px) {
-        &>div.contentImg > img{
-            width: calc(853px / 3.5 );
-            height: calc(1280px / 5 );
+        &>div.contentImg>img {
+            width: calc(853px / 3.5);
+            height: calc(1280px / 5);
         }
-        &>div.contentImg{
+
+        &>div.contentImg {
             width: 100%;
         }
     }
@@ -176,6 +187,7 @@ div.wrapper {
     align-items: center;
     bottom: -35px;
     z-index: 700;
+
     &>a.iconsocial {
         -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
         position: relative;
@@ -250,21 +262,24 @@ div.wrapper {
                 font-size: 22px;
             }
         }
+
         @media screen and (max-width:320px) {
             width: 35px;
             height: 30px;
         }
     }
-    @media screen and (max-width: 1120px){
+
+    @media screen and (max-width: 1120px) {
         justify-content: center;
         width: 100%;
     }
+
     @media screen and (max-width:740px) {
         left: 0;
     }
 }
 
-body{
+body {
     &>main {
         width: 100%;
         height: 100%;
@@ -273,7 +288,7 @@ body{
         background: rgb(255, 255, 255);
         display: flex;
         padding-bottom: 40px;
-    
+
         &>aside {
             position: sticky;
             top: 0;
@@ -282,38 +297,43 @@ body{
             padding: 5px 10px;
             border-radius: 15px;
             transition: width .5s;
-    
+
             &>div.skills {
-                margin: 15px 0px 40px;                
+                margin: 15px 0px 40px;
+
                 &>h4 {
                     font-size: 30px;
                     margin-bottom: 10px;
                     font-weight: 500;
                 }
-                &>div#skillsContent{
+
+                &>div#skillsContent {
                     // max-width: fit-content;
                     display: flex;
                     flex-direction: column;
                     gap: 10px;
-                    &>section{
-                        &>h5{
+
+                    &>section {
+                        &>h5 {
                             padding: 5px;
                             font-size: 16px;
                             font-weight: 500;
                         }
-                        &>div{
+
+                        &>div {
                             display: grid;
-                            grid-template-columns: repeat(2,minmax(100px,150px));
-                            grid-template-rows: repeat(auto-fill,minmax(50px,1fr));
+                            grid-template-columns: repeat(2, minmax(100px, 150px));
+                            grid-template-rows: repeat(auto-fill, minmax(50px, 1fr));
                             row-gap: 10px;
                             column-gap: 10px;
-                            
-                            &>div{
+
+                            &>div {
                                 border: 1px solid #f1f1f1;
                                 border-radius: 8px;
                                 padding: 5px 10px;
                                 cursor: pointer;
-                                &:hover{
+
+                                &:hover {
                                     background-color: #f1f1f1a1;
                                     // &>div:not(.level){
                                     //     // &>p {
@@ -321,34 +341,40 @@ body{
                                     //     // }
                                     // }
                                 }
-                                &>div:not(.level){
+
+                                &>div:not(.level) {
                                     display: flex;
                                     justify-content: space-between;
                                     align-items: center;
                                     gap: 10px;
+
                                     &>p {
                                         font-size: 14px;
                                         color: rgb(43, 43, 43);
                                     }
-                                    &>figure{
-                                        &>img{
+
+                                    &>figure {
+                                        &>img {
                                             object-fit: contain;
                                             width: 35px;
                                             height: 35px;
                                         }
                                     }
                                 }
+
                                 @media screen and (max-width:1100px) {
                                     display: flex;
                                     flex-direction: column;
                                     gap: 7px;
-                                    &>div:not(.level){
+
+                                    &>div:not(.level) {
                                         &>p {
                                             font-size: 13px;
                                             color: rgb(43, 43, 43);
                                         }
-                                        &>figure{
-                                            &>img{
+
+                                        &>figure {
+                                            &>img {
                                                 width: 25px;
                                                 height: 25px;
                                             }
@@ -359,91 +385,109 @@ body{
                         }
                     }
                 }
-    
-    
+
+
             }
-    
-            &>div.languagues{
+
+            &>div.languagues {
                 margin-bottom: 45px;
-                &>h4{
+
+                &>h4 {
                     font-size: 30px;
                     margin-bottom: 10px;
                     font-weight: 500;
                 }
-                &>div#languaguesContent{
-                    &>div{
+
+                &>div#languaguesContent {
+                    &>div {
                         padding: 5px 10px;
                         display: flex;
                         flex-direction: column;
                         gap: 7px;
                     }
                 }
-                &>p{
+
+                &>p {
                     padding: 5px;
                     color: rgb(43, 43, 43);
                 }
             }
-            &>div.hobbies{
+
+            &>div.hobbies {
                 margin-bottom: 40px;
-                &>h4{
+
+                &>h4 {
                     font-size: 30px;
                     margin-bottom: 10px;
                     font-weight: 500;
                 }
-                &>div{
-                    &>p{
+
+                &>div {
+                    &>p {
                         padding: 2px 10px;
                         color: rgb(43, 43, 43);
                     }
-                    &>img{
+
+                    &>img {
                         display: none;
                     }
+
                     @media screen and (max-width:960px) {
                         width: 60%;
                         display: flex;
                         justify-content: space-between;
-                        &>img{
+
+                        &>img {
                             width: 46px;
                             object-fit: cover;
                             display: block;
                         }
                     }
+
                     @media screen and (max-width:335px) {
                         width: 75%;
                         margin-bottom: 20px;
                     }
                 }
             }
-            &>div.contact{
+
+            &>div.contact {
                 border-top: 1px solid #d5d5d5;
-                &>h4{
+
+                &>h4 {
                     padding: 5px 0px;
                     font-size: 30px;
                     font-weight: 500;
                 }
-                &>div{
-                    &>a{
+
+                &>div {
+                    &>a {
                         text-decoration: none;
                         color: rgb(43, 43, 43);
                         padding-left: 3px;
-                        &:hover{
+
+                        &:hover {
                             text-decoration: none;
                             color: rgb(0, 0, 0);
                             font-weight: 900;
                         }
                     }
-                    &>div{
+
+                    &>div {
                         display: flex;
                         gap: 7px;
                         padding: 0 10px;
-                        &>label{
+
+                        &>label {
                             font-weight: 500;
                         }
-                        &>a{
+
+                        &>a {
                             text-decoration: none;
                             color: rgb(43, 43, 43);
                             padding-left: 3px;
-                            &:hover{
+
+                            &:hover {
                                 text-decoration: none;
                                 color: rgb(0, 0, 0);
                                 font-weight: 500;
@@ -451,17 +495,20 @@ body{
                         }
                     }
                 }
+
                 @media screen and (max-width:855px) {
-                    &>div{
-                        &>b{
+                    &>div {
+                        &>b {
                             padding-left: 0;
                         }
                     }
                 }
             }
+
             @media screen and (max-width:984px) {
                 width: 35%;
             }
+
             @media screen and (max-width:960px) {
                 order: 2;
                 width: 100%;
@@ -472,69 +519,84 @@ body{
                 &>div.skills {
                     margin-bottom: 60px;
                     padding-left: 0;
+
                     &>h4 {
                         // text-align: center;
                         font-size: 28px;
                     }
-                    &>div#skillsContent{
-                        &>section{
-                            &>div{
+
+                    &>div#skillsContent {
+                        &>section {
+                            &>div {
                                 grid-template-columns: repeat(auto-fill, minmax(100px, 150px));
                             }
                         }
                     }
+
                     &>p {
                         text-align: left;
                         padding-left: 12%;
                         margin-top: 15px;
                     }
                 }
-                &>div.languagues{
+
+                &>div.languagues {
                     margin-bottom: 60px;
-                    &>h4{
+
+                    &>h4 {
                         // text-align: center;
                         font-size: 28px;
                     }
-                    &>p{
+
+                    &>p {
                         text-align: left;
                         padding-left: 12%;
                         margin-top: 15px;
                     }
                 }
-                &>div.hobbies{
+
+                &>div.hobbies {
                     margin-bottom: 40px;
-                    &>h4{
+
+                    &>h4 {
                         font-size: 28px;
                     }
-                    &>div{
+
+                    &>div {
                         display: flex;
-                        justify-content:space-between;
+                        justify-content: space-between;
                         width: 80%;
                         margin-bottom: 15px;
-                        &>p{
+
+                        &>p {
                             padding-left: 15px;
                             padding-top: 15px;
                         }
-                        &>img{
+
+                        &>img {
                             width: 50px;
                             object-fit: contain;
                         }
                     }
                 }
-                &>div.contact{
-                    &>h4{
+
+                &>div.contact {
+                    &>h4 {
                         font-size: 28px;
                     }
-                    &>div{
-                        &>b{
+
+                    &>div {
+                        &>b {
                             padding-left: 15px;
                             padding-top: 15px;
                         }
                     }
-                    &>div.res-none{
+
+                    &>div.res-none {
                         display: flex;
                         justify-content: center;
-                        &>div{
+
+                        &>div {
                             display: flex;
                             flex-direction: column;
                             align-items: center;
@@ -542,22 +604,26 @@ body{
                     }
                 }
             }
+
             @media screen and (max-width:720px) {
-                &>div.contact{
-                    &>div.res-none{
+                &>div.contact {
+                    &>div.res-none {
                         display: none;
                     }
-                    &>div.mini-footer{
+
+                    &>div.mini-footer {
                         display: flex;
                         justify-content: space-evenly;
                         margin-top: 25px;
-                        &>a>img{
+
+                        &>a>img {
                             width: 45px;
                             object-fit: contain;
                         }
                     }
                 }
             }
+
             @media screen and (max-width:550px) {
                 padding: 0 10px;
 
@@ -566,45 +632,53 @@ body{
                         font-size: 22px;
                         text-align: center;
                     }
-                    &>div#skillsContent{
-                        &>section{
+
+                    &>div#skillsContent {
+                        &>section {
                             text-align: center;
-                            &>div{
+
+                            &>div {
                                 place-content: center;
                             }
                         }
                     }
                 }
-                &>div.languagues{
-                    &>h4{
+
+                &>div.languagues {
+                    &>h4 {
                         font-size: 22px;
                         text-align: center;
                     }
-                    &>div#languaguesContent{
+
+                    &>div#languaguesContent {
                         display: flex;
                         justify-content: center;
-                        &>div{
-                            &>p{
+
+                        &>div {
+                            &>p {
                                 text-align: center;
                             }
                         }
                     }
                 }
-                &>div.hobbies{
-                    &>h4{
+
+                &>div.hobbies {
+                    &>h4 {
                         font-size: 22px;
                         text-align: center;
                     }
                 }
-                &>div.contact{
-                    &>h4{
+
+                &>div.contact {
+                    &>h4 {
                         font-size: 22px;
                         text-align: center;
                     }
                 }
             }
         }
-        &>section.description{
+
+        &>section.description {
             position: relative;
             width: 70%;
             height: 100%;
@@ -613,28 +687,32 @@ body{
             top: 0;
             right: 0;
             border-left: 1px solid #f1f1f1;
-            
-            &>div.profile{
+
+            &>div.profile {
                 margin-bottom: 30px;
                 padding: 0 40px;
                 width: 100%;
-                
-                &>h3{
+
+                &>h3 {
                     margin-bottom: 5px;
                     font-size: 30px;
                     font-weight: 500;
                 }
-                &>div#presentation{
+
+                &>div#presentation {
                     display: flex;
                     flex-direction: column;
-                    &>code{
+
+                    &>code {
                         margin-bottom: 10px;
                     }
-                    &>span:last-of-type{
+
+                    &>span:last-of-type {
                         margin-bottom: 10px;
                     }
                 }
-                &>p{
+
+                &>p {
                     padding: 20px 0;
                     color: rgb(43, 43, 43);
                     line-height: 25px;
@@ -642,69 +720,81 @@ body{
                     padding: 0 7px !important;
                     margin-bottom: 20px;
                 }
-    
-                &>ul{
+
+                &>ul {
                     list-style-image: url(../assets/icons/icon-plus.png);
                     list-style-position: inside;
                     width: 85%;
-                    &>h4{
+
+                    &>h4 {
                         font-size: 17px;
                         font-weight: 500;
                     }
-                    &>li{
+
+                    &>li {
                         padding: 4px 0px;
                         margin-bottom: 17px;
                         font-size: 15px;
-                        &::marker{
+
+                        &::marker {
                             border-radius: 50% !important;
                         }
-                        &>ul{
+
+                        &>ul {
                             list-style-image: url(../assets/icons/icon-menos.png);
                         }
-                        &.keySkills{
+
+                        &.keySkills {
                             margin-bottom: 0px;
                         }
-                    }  
-                    
+                    }
+
                     @media screen and (max-width:440px) {
-                        padding: 0  5px 0 25px;
+                        padding: 0 5px 0 25px;
                     }
                 }
+
                 @media screen and (max-width:440px) {
-                    padding: 0  0px 0 5px;
+                    padding: 0 0px 0 5px;
                 }
             }
-    
-            &>div.education{
+
+            &>div.education {
                 margin-bottom: 30px;
                 padding: 0 40px;
-                &>h3{
+
+                &>h3 {
                     margin-bottom: 5px;
                     font-size: 30px;
                     font-weight: 500;
                 }
-                &>div{
+
+                &>div {
                     display: grid;
-                    grid-template-columns: repeat(auto-fill,minmax(250px,1fr));
-                    grid-template-rows: repeat(auto-fill,minmax(50px,1fr));
+                    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+                    grid-template-rows: repeat(auto-fill, minmax(50px, 1fr));
                     gap: 10px;
-                    &>div{
+
+                    &>div {
                         border: 1px solid #ebebeb;
                         border-radius: 8px;
                         padding: 5px 10px;
                         display: flex;
                         flex-direction: column;
                         justify-content: space-between;
-                        &:hover{
+
+                        &:hover {
                             background-color: #f1f1f1a1;
                         }
-                        &>div:first-of-type{
+
+                        &>div:first-of-type {
                             display: flex;
                             justify-content: space-between;
                             align-items: center;
                             gap: 5px;
                             width: 100%;
-                            &>h4{
+
+                            &>h4 {
                                 font-size: 16px;
                                 font-weight: 900;
                                 color: #353535;
@@ -712,11 +802,13 @@ body{
                                 text-align: left;
                                 line-height: 16px;
                             }
-                            &>figure{
+
+                            &>figure {
                                 width: fit-content;
                                 display: grid;
                                 place-items: center;
-                                &>img{
+
+                                &>img {
                                     border-radius: 50%;
                                     height: 40px;
                                     width: 40px;
@@ -724,91 +816,105 @@ body{
                                 }
                             }
                         }
-                        &>div:last-of-type{
+
+                        &>div:last-of-type {
                             display: flex;
                             flex-direction: column;
                             gap: 4px;
-                            &>span:first-of-type{
+
+                            &>span:first-of-type {
                                 font-size: 14px;
                                 line-height: 18px;
                                 display: block;
                             }
-                            &>span:last-of-type{
+
+                            &>span:last-of-type {
                                 display: block;
                                 font-size: 12px;
                             }
                         }
-                        
-                        &>hr{
+
+                        &>hr {
                             display: block;
                             margin-bottom: 30px;
                         }
                     }
                 }
+
                 @media screen and (max-width:550px) {
-                    &>div{
-                        &>div{
-                            &>div:first-of-type{
-                                &>h4{
+                    &>div {
+                        &>div {
+                            &>div:first-of-type {
+                                &>h4 {
                                     font-size: 14px;
                                     font-weight: 600;
                                 }
-                                &>figure{
+
+                                &>figure {
                                     width: fit-content;
                                     display: grid;
                                     place-items: center;
-                                    &>img{
+
+                                    &>img {
                                         height: 30px;
                                         width: 30px;
                                     }
                                 }
                             }
-                            &>div:last-of-type{
-                                &>span:first-of-type{
+
+                            &>div:last-of-type {
+                                &>span:first-of-type {
                                     font-size: 13px;
                                     line-height: 13px;
                                 }
-                                &>span:last-of-type{
+
+                                &>span:last-of-type {
                                     font-size: 11px;
                                 }
                             }
-                            
+
                         }
                     }
                 }
             }
-    
-            &>div.history{
+
+            &>div.history {
                 margin-bottom: 30px;
                 padding: 0 40px;
-                &>h3{
+
+                &>h3 {
                     margin-bottom: 5px;
                     font-size: 30px;
                     font-weight: 500;
                 }
-    
-                &>div{
+
+                &>div {
                     display: flex;
                     flex-direction: column;
                     gap: 15px;
-                    &>div{
-                        &>span:first-of-type{
+
+                    &>div {
+                        &>span:first-of-type {
                             padding-bottom: 15px;
                         }
-                        &>div{
+
+                        &>div {
                             display: flex;
                             justify-content: space-between;
                             align-items: center;
                             max-width: fit-content;
                             gap: 20px;
-                            &>h4{
+
+                            &>h4 {
                                 font-size: 16px;
                                 font-weight: 900;
                                 color: #353535;
                             }
-                            &>figure{
+
+                            &>figure {
                                 width: fit-content;
-                                &>img{
+
+                                &>img {
                                     border-radius: 50%;
                                     height: 40px;
                                     width: 40px;
@@ -816,37 +922,103 @@ body{
                                 }
                             }
                         }
+
                         // h4{
                         //     font-size: 16px;
                         //     font-weight: 900;
                         //     color: #353535;
                         // }
-                        &>span:last-of-type{
+                        &>span:last-of-type {
                             margin-bottom: 15px;
                             display: block;
                             font-size: 12px;
                         }
-                        &>section{
-                            &>div{
+
+                        &>section {
+                            &>div {
                                 border-bottom: 1px solid #f1f1f1;
                                 padding: 5px 10px;
-                                &>h6{
+
+                                &>div {
+                                    margin: 10px 0px;
+                                    display: flex;
+                                    flex-wrap: wrap;
+                                    align-items: center;
+                                    gap: 10px;
+
+                                    &>h6 {
+                                        padding: 5px 10px;
+                                        font-size: 15px;
+                                        line-height: 15px;
+                                    }
+
+                                    &>span {
+                                        padding: 1px 10px;
+                                        border-radius: 25px;
+                                        // background: #000;
+                                        background: #2664ea1a;
+                                        border: 1px solid #2665ea;
+                                        cursor: pointer;
+
+                                        &>a {
+                                            color: rgb(0, 0, 0);
+                                            font-size: 13px;
+                                            text-decoration: none;
+                                        }
+
+                                        &:hover {
+                                            background: #2664ea;
+
+                                            &>a {
+                                                color: #fff;
+                                            }
+                                        }
+                                    }
+                                }
+
+                                &>h6 {
                                     padding: 5px 10px;
                                     font-size: 15px;
                                     line-height: 15px;
                                 }
-                                &>ul{
+
+                                &>span {
+                                    padding: 1px 10px;
+                                    border-radius: 25px;
+                                    // background: #000;
+                                    background: #2664ea1a;
+                                    border: 1px solid #2665ea;
+                                    margin-left: 10px;
+                                    cursor: pointer;
+
+                                    &>a {
+                                        color: rgb(0, 0, 0);
+                                        font-size: 13px;
+                                        text-decoration: none;
+                                    }
+
+                                    &:hover {
+                                        background: #2664ea;
+
+                                        &>a {
+                                            color: #fff;
+                                        }
+                                    }
+                                }
+
+                                &>ul {
                                     // list-style-image: url(../assets/icons/icon-plus.png);
                                     // list-style-position: inside;
-                                    
+
                                     padding: 0 10px;
-                                    &>li{
+
+                                    &>li {
                                         padding: 4px 0px;
                                         font-size: 14px;
-                                    }  
-                                    
+                                    }
+
                                     @media screen and (max-width:440px) {
-                                        padding: 0  5px 0 25px;
+                                        padding: 0 5px 0 25px;
                                     }
                                 }
                             }
@@ -854,86 +1026,104 @@ body{
                     }
                 }
             }
+
             @media screen and (max-width:984px) {
                 width: 65%;
                 padding: 0;
                 transition: width .5s;
             }
+
             @media screen and (max-width:715px) {
-                &> div {
-                    padding: 0  5px 0 40px;
+                &>div {
+                    padding: 0 5px 0 40px;
                 }
-                &>div.profile{
-                    &>ul{
+
+                &>div.profile {
+                    &>ul {
                         width: 100%;
                     }
                 }
             }
+
             @media screen and (max-width:408px) {
-                &>div.history{
-                    padding: 0  3px 0 7px;
+                &>div.history {
+                    padding: 0 3px 0 7px;
                 }
-                
+
                 &>div.education {
-                    padding: 0  3px 0 12px;
+                    padding: 0 3px 0 12px;
                 }
+
                 // .block408px{
                 //     display: block;
                 // }
-            
+
                 // .none408px{
                 //     display: none;
                 // }
             }
+
             @media screen and (max-width:360px) {
-                &>div > h3{
+                &>div>h3 {
                     font-size: 22px;
                 }
+
                 // .block360px{
                 //     display: block;
                 // }
-            
+
                 // .none360px{
                 //     display: none;
                 // }
             }
+
             @media screen and (max-width:960px) {
                 position: relative;
                 width: 100%;
             }
+
             @media screen and (max-width:550px) {
-                &>div.profile{
+                &>div.profile {
                     padding: 0 10px;
-                    &>h3{
+
+                    &>h3 {
                         font-size: 20px;
                     }
-                    &>ul{
-                        &>h4{
+
+                    &>ul {
+                        &>h4 {
                             font-size: 15px;
                         }
-                        &>li{
+
+                        &>li {
                             font-size: 14px;
                         }
                     }
                 }
-                &>div.education{
+
+                &>div.education {
                     padding: 0 15px;
-                    &>h3{
+
+                    &>h3 {
                         font-size: 22px;
                     }
                 }
-                &>div.history{
+
+                &>div.history {
                     padding: 0 15px;
-                    &>h3{
+
+                    &>h3 {
                         font-size: 22px;
                     }
                 }
             }
         }
     }
+
     @media screen and (max-width:960px) {
         padding: 0;
-        &>main{
+
+        &>main {
             display: flex;
             flex-direction: column;
         }
@@ -959,13 +1149,15 @@ div.level {
         background: rgb(122, 122, 122);
         border-radius: 15px;
     }
-    &>svg{
+
+    &>svg {
         fill: #f9c80e;
         height: 20px;
         width: 20px;
         // &.filled{
         // }
     }
+
     // @media screen and (max-width:960px) {
     //     justify-content: center;
     //     &>div.have,&>div.limit {
@@ -980,8 +1172,9 @@ div.level {
 }
 
 
-.dis{
+.dis {
     display: none;
+
     @media screen and (max-width:855px) {
         display: block;
     }

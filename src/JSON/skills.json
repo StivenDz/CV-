@@ -44,9 +44,9 @@
         "knowledge": 4
       },
       {
-        "name": "Flutter",
-        "svgIcon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/flutter/flutter-original.svg",
-        "knowledge": 3.5
+        "name": "React Native",
+        "svgIcon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+        "knowledge": 4.5
       }
     ]
   },
@@ -71,32 +71,12 @@
       {
         "name": "Java",
         "svgIcon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg",
-        "knowledge": 4
+        "knowledge": 5
       },
       {
         "name": "SpringBoot",
         "svgIcon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg",
-        "knowledge": 4
-      },
-      {
-        "name": ".NET Core",
-        "svgIcon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dotnetcore/dotnetcore-original.svg",
-        "knowledge": 3
-      },
-      {
-        "name": ".NET Framework",
-        "svgIcon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dot-net/dot-net-original-wordmark.svg",
-        "knowledge": 3
-      },
-      {
-        "name": "Python",
-        "svgIcon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
-        "knowledge": 3
-      },
-      {
-        "name": "Flask",
-        "svgIcon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg",
-        "knowledge": 2
+        "knowledge": 5
       }
     ]
   },
@@ -116,6 +96,11 @@
       {
         "name": "FireBase",
         "svgIcon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/firebase/firebase-original.svg",
+        "knowledge": 4
+      },
+      {
+        "name": "Google Drive",
+        "svgIcon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/google/google-original.svg",
         "knowledge": 4
       },
       {

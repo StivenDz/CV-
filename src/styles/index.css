@@ -260,7 +260,7 @@ body > main {
   display: flex;
   padding-bottom: 40px; }
   body > main > aside {
-    position: sticky;
+    position: relative;
     top: 0;
     width: 30%;
     height: 100%;

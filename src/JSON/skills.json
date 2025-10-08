@@ -77,6 +77,11 @@
         "name": "SpringBoot",
         "svgIcon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg",
         "knowledge": 5
+      },
+      {
+        "name": ".Net",
+        "svgIcon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dotnetcore/dotnetcore-original.svg",
+        "knowledge": 4.5
       }
     ]
   },

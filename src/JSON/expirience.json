@@ -59,7 +59,7 @@
         "contributions": [
           {
             "name": "Wallet Management App",
-            "link":"https://walletmanagement.app",
+            "link": "https://walletmanagement.app",
             "tasks": [
               "Developed using Node.js, NestJS, Spring Boot, and React.",
               "Web application for personal and business financial management, focused on tracking transactions, categories, and supporting attachments.",
@@ -71,7 +71,7 @@
           },
           {
             "name": "Wallet Management Landing",
-            "link":"https://walletmanagement.app/site",
+            "link": "https://walletmanagement.app/site",
             "tasks": [
               "Landing page built with Astro and Node.js.",
               "Designed to present app features, capture leads, and drive conversions.",
@@ -80,7 +80,7 @@
           },
           {
             "name": "Vainilla Rosse",
-            "link":"https://vainillarosse.com",
+            "link": "https://vainillarosse.com",
             "tasks": [
               "Official landing page for the launch of the jewelry brand, including countdown timer.",
               "Developed with Astro and NestJS.",
@@ -90,7 +90,7 @@
           },
           {
             "name": "Néutica",
-            "link":"https://neutica.tech",
+            "link": "https://neutica.tech",
             "tasks": [
               "Agency landing page developed with Astro, React, and NestJS.",
               "Responsive and modern design showcasing mission, vision, values, and services by sector.",
@@ -100,12 +100,29 @@
           },
           {
             "name": "BlackFrost",
+            "link": "https://blackfrost.es",
             "tasks": [
               "Construction project management web app built with React (frontend), Spring Boot (core backend), and NestJS (reporting module).",
               "Complete budget management using a hierarchical tree structure: categories, subcategories, and items.",
               "Work part creation with item selection from the budget and automatic cost calculations for labor and materials.",
               "Expense tracking module with invoice uploads, cloud storage integration (Google Drive), and PDF report generation.",
               "Role-based user management with project-level permissions."
+            ]
+          },
+          {
+            "name": "Vainilla Rosse Dashboard",
+            "link": "https://dashboard.vainillarosse.com",
+            "tasks": [
+              "Panel administrativo empresarial desarrollado con Spring Boot (backend) y React + TypeScript (frontend).",
+              "Sistema completo de gestión de productos (CRUD): creación, edición, eliminación y visualización con soporte de imágenes y descripciones.",
+              "Carga de imágenes con vista previa y validación de peso.",
+              "Categorización de productos por colección o tipo, optimizando la organización del catálogo.",
+              "Login seguro con autenticación basada en tokens y control de sesión.",
+              "Dashboard responsive desarrollado completamente con React + TypeScript.",
+              "Integración con Amazon Web Services (S3) para el almacenamiento seguro y eficiente de las imágenes de productos.",
+              "Base de datos estructurada en SQL Server, optimizada para consultas rápidas y escalabilidad a largo plazo.",
+              "Diseño moderno y coherente con la identidad visual de la marca Vainilla Rosse.",
+              "Despliegue en servidor privado con SSL bajo el subdominio de la marca y conexión directa con la landing principal."
             ]
           }
         ]
@@ -233,7 +250,7 @@
         "contributions": [
           {
             "name": "Wallet Management App",
-            "link":"https://walletmanagement.app",
+            "link": "https://walletmanagement.app",
             "tasks": [
               "Desarrollada con Node.js, NestJS, Spring Boot y React.",
               "Aplicación web de gestión financiera personal y empresarial con enfoque en control de movimientos, categorías y adjuntos de soporte.",
@@ -245,7 +262,7 @@
           },
           {
             "name": "Wallet Management Landing",
-            "link":"https://walletmanagement.app/site",
+            "link": "https://walletmanagement.app/site",
             "tasks": [
               "Landing page desarrollada con Astro y Node.js.",
               "Diseñada para explicar los beneficios de la app, captar registros y mejorar la conversión.",
@@ -254,7 +271,7 @@
           },
           {
             "name": "Vainilla Rosse",
-            "link":"https://vainillarosse.com",
+            "link": "https://vainillarosse.com",
             "tasks": [
               "Landing oficial del lanzamiento de la marca de joyería con conteo regresivo.",
               "Desarrollada con Astro y NestJS.",
@@ -264,7 +281,7 @@
           },
           {
             "name": "Néutica",
-            "link":"https://neutica.tech",
+            "link": "https://neutica.tech",
             "tasks": [
               "Landing institucional de la agencia desarrollada con Astro, React y NestJS.",
               "Diseño adaptable y moderno que comunica misión, visión, valores y servicios por sector.",
@@ -274,12 +291,29 @@
           },
           {
             "name": "BlackFrost",
+            "link": "https://blackfrost.es",
             "tasks": [
               "Aplicación web de gestión de obras desarrollada con React (frontend), Spring Boot (backend principal) y NestJS (reportes).",
               "Manejo completo de presupuestos con sistema jerárquico tipo árbol: categorías, subcategorías e ítems.",
               "Creación de partes de obra con selección de ítems del presupuesto y cálculo automático de costos por mano de obra y materiales.",
               "Módulo de gastos con control de facturas adjuntas, almacenamiento en la nube (Google Drive) y generación de reportes en PDF.",
               "Sistema de roles y usuarios con permisos diferenciados por proyecto."
+            ]
+          },
+          {
+            "name": "Vainilla Rosse Dashboard",
+            "link": "https://dashboard.vainillarosse.com",
+            "tasks": [
+              "Enterprise management dashboard developed with Spring Boot (backend) and React + TypeScript (frontend).",
+              "Full CRUD system for product management: creation, editing, deletion, and visualization with image and description support.",
+              "Image upload with real-time preview and file size validation.",
+              "Product categorization by collection or type for better organization and scalability.",
+              "Secure login with token-based authentication and session management.",
+              "Responsive dashboard interface built entirely with React + TypeScript.",
+              "Integration with Amazon Web Services (S3) for secure and efficient product image storage.",
+              "Database structured in SQL Server, optimized for fast queries and long-term scalability.",
+              "Modern, brand-aligned design consistent with the Vainilla Rosse visual identity.",
+              "Deployed on a private server with SSL under the brand’s subdomain and directly connected to the main landing page."
             ]
           }
         ]

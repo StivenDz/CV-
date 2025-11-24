@@ -77,12 +77,43 @@
         "name": "SpringBoot",
         "svgIcon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg",
         "knowledge": 5
+      }
+    ]
+  },
+  {
+    "section":"Automation",
+    "skills":[
+      {
+        "name": "n8n",
+        "svgIcon": "https://n8n.io/brandguidelines/logo-dark.svg",
+        "knowledge": 5
       },
       {
-        "name": ".Net",
-        "svgIcon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dotnetcore/dotnetcore-original.svg",
-        "knowledge": 4.5
+        "name": "Twilio",
+        "svgIcon": "https://www.twilio.com/content/dam/twilio-com/core-assets/social/favicon-32x32.png",
+        "knowledge": 5
+      },
+      {
+        "name": "Vapi",
+        "svgIcon": "https://vapi.ai/brand/img/full-logo-square-1.svg",
+        "knowledge": 5
+      },
+      {
+        "name": "OpenAI",
+        "svgIcon": "https://1000marcas.net/wp-content/uploads/2025/02/OpenAI-Logo-2022.png",
+        "knowledge": 5
+      },
+      {
+        "name": "Instagram",
+        "svgIcon": "./src/assets/icons/instagram.png",
+        "knowledge": 5
+      },
+      {
+        "name": "WhatsApp",
+        "svgIcon": "./src/assets/icons/whatsapp.png",
+        "knowledge": 5
       }
+
     ]
   },
   {
